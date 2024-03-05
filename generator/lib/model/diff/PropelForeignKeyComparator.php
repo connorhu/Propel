@@ -8,8 +8,6 @@
  * @license     MIT License
  */
 
-require_once __DIR__ . '/../ForeignKey.php';
-
 /**
  * Service class for comparing ForeignKey objects
  * Heavily inspired by Doctrine2's Migrations

@@ -8,11 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/../exception/EngineException.php';
-require_once __DIR__ . '/NameGenerator.php';
-require_once __DIR__ . '/PhpNameGenerator.php';
-require_once __DIR__ . '/ConstraintNameGenerator.php';
-
 /**
  * A name generation factory.
  *

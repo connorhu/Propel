@@ -8,11 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-require_once __DIR__ . '/../exception/EngineException.php';
-require_once __DIR__ . '/PropelTypes.php';
-require_once __DIR__ . '/Rule.php';
-
 /**
  * Validator.
  *

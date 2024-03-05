@@ -8,7 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/GeneratorConfigInterface.php';
 // Phing dependencies
 require_once 'phing/Phing.php';
 

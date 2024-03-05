@@ -8,12 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/ScopedElement.php';
-require_once __DIR__ . '/IDMethod.php';
-require_once __DIR__ . '/NameGenerator.php';
-require_once __DIR__ . '/Table.php';
-require_once __DIR__ . '/Behavior.php';
-
 /**
  * A class for holding application data structures.
  *

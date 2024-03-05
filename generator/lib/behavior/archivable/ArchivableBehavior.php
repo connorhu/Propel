@@ -8,9 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/ArchivableBehaviorObjectBuilderModifier.php';
-require_once __DIR__ . '/ArchivableBehaviorQueryBuilderModifier.php';
-
 /**
  * Keeps tracks of an ActiveRecord object, even after deletion
  *

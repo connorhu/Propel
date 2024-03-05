@@ -8,9 +8,6 @@
  * @license     MIT License
  */
 
-require_once __DIR__ . '/../Table.php';
-require_once __DIR__ . '/PropelColumnDiff.php';
-
 /**
  * Value object for storing Table object diffs
  * Heavily inspired by Doctrine2's Migrations

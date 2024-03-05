@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-
 /**
  * A Class for information about foreign keys of a table.
  *

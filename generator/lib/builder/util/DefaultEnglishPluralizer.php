@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/Pluralizer.php';
-
 /**
  * The default English pluralizer class.
  *

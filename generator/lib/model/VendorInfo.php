@@ -8,9 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-require_once __DIR__ . '/../exception/EngineException.php';
-
 /**
  * Object to hold vendor-specific info.
  *

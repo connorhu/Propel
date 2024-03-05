@@ -8,11 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/SortableBehaviorObjectBuilderModifier.php';
-require_once __DIR__ . '/SortableBehaviorQueryBuilderModifier.php';
-require_once __DIR__ . '/SortableBehaviorPeerBuilderModifier.php';
-require_once __DIR__ . '/SortableRelationBehavior.php';
-
 /**
  * Gives a model class the ability to be ordered
  * Uses one additional column storing the rank

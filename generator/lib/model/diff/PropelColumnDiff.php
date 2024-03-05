@@ -8,8 +8,6 @@
  * @license     MIT License
  */
 
-require_once __DIR__ . '/../Column.php';
-
 /**
  * Value object for storing Column object diffs.
  * Heavily inspired by Doctrine2's Migrations

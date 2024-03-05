@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/OMBuilder.php';
-
 /**
  * Base class for Peer-building classes.
  *

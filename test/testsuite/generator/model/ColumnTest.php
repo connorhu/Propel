@@ -8,10 +8,10 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../generator/lib/model/Column.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/builder/util/XmlToAppData.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/platform/DefaultPlatform.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/behavior/AutoAddPkBehavior.php';
+require_once __DIR__ . '/../../../../generator/lib/model/Column.php';
+require_once __DIR__ . '/../../../../generator/lib/builder/util/XmlToAppData.php';
+require_once __DIR__ . '/../../../../generator/lib/platform/DefaultPlatform.php';
+require_once __DIR__ . '/../../../../generator/lib/behavior/AutoAddPkBehavior.php';
 
 /**
  * Tests for package handling.

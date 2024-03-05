@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../../generator/lib/builder/util/PropelTemplate.php';
+require_once __DIR__ . '/../../../../../generator/lib/builder/util/PropelTemplate.php';
 
 /**
  * Tests for PropelTemplate class
@@ -46,7 +46,7 @@ class PropelTemplateTest extends \PHPUnit\Framework\TestCase
     public function testRenderFile()
     {
         $t = new PropelTemplate();
-        $t->setTemplateFile(dirname(__FILE__).'/template.php');
+        $t->setTemplateFile(__DIR__.'/template.php');
         $res = $t->render(array('name' => 'John'));
         $this->assertEquals('Hello, John', $res);
     }

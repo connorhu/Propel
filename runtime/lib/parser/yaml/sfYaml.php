@@ -84,7 +84,7 @@ class sfYaml
       return $input;
     }
 
-    require_once dirname(__FILE__).'/sfYamlParser.php';
+    require_once __DIR__.'/sfYamlParser.php';
 
     $yaml = new sfYamlParser();
 
@@ -110,7 +110,7 @@ class sfYaml
    */
   public static function dump($array, $inline = 2)
   {
-    require_once dirname(__FILE__).'/sfYamlDumper.php';
+    require_once __DIR__.'/sfYamlDumper.php';
 
     $yaml = new sfYamlDumper();
 

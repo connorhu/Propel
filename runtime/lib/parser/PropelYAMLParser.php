@@ -9,7 +9,7 @@
  */
 
 if (!class_exists('sfYaml')) {
-    require_once dirname(__FILE__) . '/yaml/sfYaml.php';
+    require_once __DIR__ . '/yaml/sfYaml.php';
 }
 
 /**

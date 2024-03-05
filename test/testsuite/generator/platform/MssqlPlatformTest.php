@@ -8,10 +8,10 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/PlatformTestProvider.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/platform/MssqlPlatform.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/model/Column.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/model/VendorInfo.php';
+require_once __DIR__ . '/PlatformTestProvider.php';
+require_once __DIR__ . '/../../../../generator/lib/platform/MssqlPlatform.php';
+require_once __DIR__ . '/../../../../generator/lib/model/Column.php';
+require_once __DIR__ . '/../../../../generator/lib/model/VendorInfo.php';
 
 /**
  *

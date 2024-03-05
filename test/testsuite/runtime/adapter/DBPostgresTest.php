@@ -8,9 +8,9 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../runtime/lib/adapter/DBAdapter.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/adapter/DBPostgres.php';
-require_once dirname(__FILE__) . '/DBAdapterTestAbstract.php';
+require_once __DIR__ . '/../../../../runtime/lib/adapter/DBAdapter.php';
+require_once __DIR__ . '/../../../../runtime/lib/adapter/DBPostgres.php';
+require_once __DIR__ . '/DBAdapterTestAbstract.php';
 
 /**
  * Tests the DbPostgres adapter

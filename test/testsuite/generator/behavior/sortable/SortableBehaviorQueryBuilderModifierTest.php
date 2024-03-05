@@ -9,7 +9,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../tools/helpers/bookstore/behavior/BookstoreSortableTestBase.php';
+require_once __DIR__ . '/../../../../tools/helpers/bookstore/behavior/BookstoreSortableTestBase.php';
 
 /**
  * Tests for SortableBehavior class query modifier

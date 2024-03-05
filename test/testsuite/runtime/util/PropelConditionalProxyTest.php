@@ -8,8 +8,8 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../tools/helpers/BaseTestCase.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/util/PropelConditionalProxy.php';
+require_once __DIR__ . '/../../../tools/helpers/BaseTestCase.php';
+require_once __DIR__ . '/../../../../runtime/lib/util/PropelConditionalProxy.php';
 
 /**
  * Test class for PropelConditionalProxy.

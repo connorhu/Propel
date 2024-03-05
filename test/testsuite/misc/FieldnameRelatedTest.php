@@ -33,11 +33,11 @@ class FieldnameRelatedTest extends \PHPUnit\Framework\TestCase
     {
         parent::setUp();
 
-        require_once dirname(__FILE__) . '/../../fixtures/bookstore/build/classes/bookstore/map/BookTableMap.php';
-        require_once dirname(__FILE__) . '/../../fixtures/bookstore/build/classes/bookstore/om/BaseBookPeer.php';
-        require_once dirname(__FILE__) . '/../../fixtures/bookstore/build/classes/bookstore/BookPeer.php';
-        require_once dirname(__FILE__) . '/../../fixtures/bookstore/build/classes/bookstore/om/BaseBook.php';
-        require_once dirname(__FILE__) . '/../../fixtures/bookstore/build/classes/bookstore/Book.php';
+        require_once __DIR__ . '/../../fixtures/bookstore/build/classes/bookstore/map/BookTableMap.php';
+        require_once __DIR__ . '/../../fixtures/bookstore/build/classes/bookstore/om/BaseBookPeer.php';
+        require_once __DIR__ . '/../../fixtures/bookstore/build/classes/bookstore/BookPeer.php';
+        require_once __DIR__ . '/../../fixtures/bookstore/build/classes/bookstore/om/BaseBook.php';
+        require_once __DIR__ . '/../../fixtures/bookstore/build/classes/bookstore/Book.php';
     }
 
     /**

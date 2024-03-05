@@ -9,9 +9,9 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/diff/PropelDatabaseComparator.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/diff/PropelDatabaseDiff.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/platform/MysqlPlatform.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/diff/PropelDatabaseComparator.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/diff/PropelDatabaseDiff.php';
+require_once __DIR__ . '/../../../../../generator/lib/platform/MysqlPlatform.php';
 
 /**
  * Tests for the Table method of the PropelDatabaseComparator service class.

@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../generator/lib/config/GeneratorConfig.php';
+require_once __DIR__ . '/../../../../generator/lib/config/GeneratorConfig.php';
 
 /**
  * @author	William Durand <william.durand1@gmail.com>
@@ -20,7 +20,7 @@ class GeneratorConfigTest extends \PHPUnit\Framework\TestCase
 
     public function setUp()
     {
-        $this->pathToFixtureFiles = dirname(__FILE__) . '/../../../fixtures/generator/config';
+        $this->pathToFixtureFiles = __DIR__ . '/../../../fixtures/generator/config';
     }
 
     public function testGetClassnameWithClass()

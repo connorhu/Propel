@@ -9,7 +9,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/diff/PropelIndexComparator.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/diff/PropelIndexComparator.php';
 
 /**
  * Tests for the PropelColumnComparator service class.

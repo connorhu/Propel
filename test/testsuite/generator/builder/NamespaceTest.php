@@ -8,8 +8,8 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../runtime/lib/Propel.php';
-set_include_path(get_include_path() . PATH_SEPARATOR . realpath(dirname(__FILE__) . '/../../../fixtures/namespaced/build/classes'));
+require_once __DIR__ . '/../../../../runtime/lib/Propel.php';
+set_include_path(get_include_path() . PATH_SEPARATOR . realpath(__DIR__ . '/../../../fixtures/namespaced/build/classes'));
 
 /**
  * Tests for Namespaces in generated classes class
@@ -26,13 +26,13 @@ class NamespaceTest extends \PHPUnit\Framework\TestCase
             $this->markTestSkipped('Namespace support requires PHP 5.3');
         }
         parent::setUp();
-        Propel::init(dirname(__FILE__) . '/../../../fixtures/namespaced/build/conf/bookstore_namespaced-conf.php');
+        Propel::init(__DIR__ . '/../../../fixtures/namespaced/build/conf/bookstore_namespaced-conf.php');
     }
 
     protected function tearDown()
     {
         parent::tearDown();
-        Propel::init(dirname(__FILE__) . '/../../../fixtures/bookstore/build/conf/bookstore-conf.php');
+        Propel::init(__DIR__ . '/../../../fixtures/bookstore/build/conf/bookstore-conf.php');
     }
 
     public function testInsert()

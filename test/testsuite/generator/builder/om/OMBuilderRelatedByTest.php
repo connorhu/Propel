@@ -8,10 +8,10 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../tools/helpers/bookstore/BookstoreTestBase.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/builder/om/OMBuilder.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/builder/util/XmlToAppData.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/platform/DefaultPlatform.php';
+require_once __DIR__ . '/../../../../tools/helpers/bookstore/BookstoreTestBase.php';
+require_once __DIR__ . '/../../../../../generator/lib/builder/om/OMBuilder.php';
+require_once __DIR__ . '/../../../../../generator/lib/builder/util/XmlToAppData.php';
+require_once __DIR__ . '/../../../../../generator/lib/platform/DefaultPlatform.php';
 
 /**
  * Test class for OMBuilder.
@@ -29,7 +29,7 @@ class OMBuilderRelatedByTest extends \PHPUnit\Framework\TestCase
         // run only once to save execution time
         if (null == self::$database) {
             $xmlToAppData = new XmlToAppData(new DefaultPlatform());
-            $appData = $xmlToAppData->parseFile(realpath(dirname(__FILE__) . '/../../../../fixtures/bookstore/schema.xml'));
+            $appData = $xmlToAppData->parseFile(realpath(__DIR__ . '/../../../../fixtures/bookstore/schema.xml'));
             self::$database = $appData->getDatabase("bookstore");
         }
     }

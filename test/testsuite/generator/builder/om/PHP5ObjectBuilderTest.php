@@ -8,11 +8,11 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../../generator/lib/builder/om/PHP5ObjectBuilder.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/platform/MysqlPlatform.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/Table.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/Column.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/ColumnDefaultValue.php';
+require_once __DIR__ . '/../../../../../generator/lib/builder/om/PHP5ObjectBuilder.php';
+require_once __DIR__ . '/../../../../../generator/lib/platform/MysqlPlatform.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/Table.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/Column.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/ColumnDefaultValue.php';
 
 /**
  * Test class for PHP5ObjectBuilder.

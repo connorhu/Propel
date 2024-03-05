@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/DefaultPlatform.php';
+require_once __DIR__ . '/DefaultPlatform.php';
 
 /**
  * Postgresql PropelPlatformInterface implementation.

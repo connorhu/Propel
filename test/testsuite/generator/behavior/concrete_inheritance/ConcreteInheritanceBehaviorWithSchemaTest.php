@@ -9,7 +9,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../tools/helpers/schemas/SchemasTestBase.php';
+require_once __DIR__ . '/../../../../tools/helpers/schemas/SchemasTestBase.php';
 
 /**
  * Tests for ConcreteInheritanceBehavior class

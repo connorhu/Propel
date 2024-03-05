@@ -8,9 +8,9 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../tools/helpers/bookstore/BookstoreTestBase.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/query/Criteria.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/util/BasePeer.php';
+require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php';
+require_once __DIR__ . '/../../../../runtime/lib/query/Criteria.php';
+require_once __DIR__ . '/../../../../runtime/lib/util/BasePeer.php';
 
 /**
  * Test class for Criteria.

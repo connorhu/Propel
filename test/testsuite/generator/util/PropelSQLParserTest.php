@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../generator/lib/util/PropelSQLParser.php';
+require_once __DIR__ . '/../../../../generator/lib/util/PropelSQLParser.php';
 
 /**
  *

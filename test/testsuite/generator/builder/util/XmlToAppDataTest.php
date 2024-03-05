@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../../generator/lib/builder/util/XmlToAppData.php';
+require_once __DIR__ . '/../../../../../generator/lib/builder/util/XmlToAppData.php';
 
 /**
  * Tests for XmlToAppData class
@@ -78,7 +78,7 @@ EOF;
 
     public function testParseFile()
     {
-        $path = realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'testSchema.xml');
+        $path = realpath(__DIR__ . DIRECTORY_SEPARATOR . 'testSchema.xml');
         $xtad = new XmlToAppData();
         $appData = $xtad->parseFile($path);
         $expectedAppData = <<<EOF
@@ -95,7 +95,7 @@ EOF;
 
     public function testParseFileExternalSchema()
     {
-        $path = realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'outerSchema.xml');
+        $path = realpath(__DIR__ . DIRECTORY_SEPARATOR . 'outerSchema.xml');
         $xtad = new XmlToAppData();
         $appData = $xtad->parseFile($path);
         $expectedAppData = <<<EOF

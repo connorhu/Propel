@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../tools/helpers/bookstore/BookstoreEmptyTestBase.php';
+require_once __DIR__ . '/../../tools/helpers/bookstore/BookstoreEmptyTestBase.php';
 
 /**
  * Tests a functional scenario using the Bookstore model
@@ -233,9 +233,9 @@ class BookstoreTest extends BookstoreEmptyTestBase
         // Handle BLOB/CLOB Columns
         // ------------------------
 
-        $blob_path = dirname(__FILE__) . '/../../etc/lob/tin_drum.gif';
-        $blob2_path = dirname(__FILE__) . '/../../etc/lob/propel.gif';
-        $clob_path = dirname(__FILE__) . '/../../etc/lob/tin_drum.txt';
+        $blob_path = __DIR__ . '/../../etc/lob/tin_drum.gif';
+        $blob2_path = __DIR__ . '/../../etc/lob/propel.gif';
+        $clob_path = __DIR__ . '/../../etc/lob/tin_drum.txt';
 
         $m1 = new Media();
         $m1->setBook($phoenix);
@@ -262,7 +262,7 @@ class BookstoreTest extends BookstoreEmptyTestBase
         // Test Validators
         // ---------------
 
-        require_once dirname(__FILE__) . '/../../tools/helpers/bookstore/validator/ISBNValidator.php';
+        require_once __DIR__ . '/../../tools/helpers/bookstore/validator/ISBNValidator.php';
 
         $bk1 = new Book();
         $bk1->setTitle("12345"); // min length is 10
@@ -655,9 +655,9 @@ class BookstoreTest extends BookstoreEmptyTestBase
         // Handle BLOB/CLOB Columns
         // ------------------------
 
-        $blob_path = dirname(__FILE__) . '/../../etc/lob/tin_drum.gif';
-        $blob2_path = dirname(__FILE__) . '/../../etc/lob/propel.gif';
-        $clob_path = dirname(__FILE__) . '/../../etc/lob/tin_drum.txt';
+        $blob_path = __DIR__ . '/../../etc/lob/tin_drum.gif';
+        $blob2_path = __DIR__ . '/../../etc/lob/propel.gif';
+        $clob_path = __DIR__ . '/../../etc/lob/tin_drum.txt';
 
         $m1 = new Media();
         $m1->setBook($phoenix);
@@ -684,7 +684,7 @@ class BookstoreTest extends BookstoreEmptyTestBase
         // Test Validators
         // ---------------
 
-        require_once dirname(__FILE__) . '/../../tools/helpers/bookstore/validator/ISBNValidator.php';
+        require_once __DIR__ . '/../../tools/helpers/bookstore/validator/ISBNValidator.php';
 
         $bk1 = new Book();
         $bk1->setTitle("12345"); // min length is 10

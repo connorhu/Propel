@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../../tools/helpers/PlatformDatabaseBuildTimeBase.php';
+require_once __DIR__ . '/../../tools/helpers/PlatformDatabaseBuildTimeBase.php';
 
 /**
  * This test proves the bug described in https://github.com/propelorm/Propel/issues/617.

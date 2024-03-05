@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../../generator/lib/behavior/sortable/Sortable
  * Tests for SortableBehavior class
  *
  * @author		Massimiliano Arione
- * @version		$Revision$
  * @package		generator.behavior.sortable
  */
 class SortableBehaviorTest extends BookstoreTestBase

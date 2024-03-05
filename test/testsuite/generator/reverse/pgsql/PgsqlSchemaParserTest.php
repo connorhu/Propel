@@ -23,7 +23,6 @@ require_once __DIR__ . '/../../../../../generator/lib/task/PropelConvertConfTask
  * Tests for Pgsql database schema parser.
  *
  * @author      Alan Pinstein
- * @version     $Revision$
  * @package     propel.generator.reverse.pgsql
  */
 class PgsqlSchemaParserTest extends \PHPUnit\Framework\TestCase

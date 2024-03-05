@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  * Test class for RelatedMap::getSymmetricalRelation.
  *
  * @author     François Zaninotto
- * @version    $Id: GeneratedRelationMapTest.php 1347 2009-12-03 21:06:36Z francois $
  * @package    runtime.map
  */
 class RelatedMapSymmetricalTest extends BookstoreTestBase

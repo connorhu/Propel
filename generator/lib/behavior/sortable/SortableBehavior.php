@@ -19,7 +19,6 @@ require_once __DIR__ . '/SortableRelationBehavior.php';
  *
  * @author      Massimiliano Arione
  * @author      rozwell
- * @version     $Revision$
  * @package     propel.generator.behavior.sortable
  */
 class SortableBehavior extends Behavior

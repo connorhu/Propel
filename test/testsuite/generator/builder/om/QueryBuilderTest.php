@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/BookstoreDataPopula
  * Test class for QueryBuilder.
  *
  * @author     François Zaninotto
- * @version    $Id: QueryBuilderTest.php 1347 2009-12-03 21:06:36Z francois $
  * @package    generator.builder.om
  */
 class QueryBuilderTest extends BookstoreTestBase

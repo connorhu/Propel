@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  * Test class for PropelObjectCollection.
  *
  * @author     Francois Zaninotto
- * @version    $Id$
  * @package    runtime.collection
  */
 class PropelObjectCollectionWithFixturesTest extends BookstoreEmptyTestBase

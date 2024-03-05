@@ -25,7 +25,6 @@ require_once __DIR__ . '/ColumnDefaultValue.php';
  * @author     Daniel Rall <dlr@finemaltcoding.com> (Torque)
  * @author     Byron Foster <byron_foster@yahoo.com> (Torque)
  * @author     Bernd Goldschmidt <bgoldschmidt@rapidsoft.de>
- * @version    $Revision$
  * @package    propel.generator.model
  */
 class Column extends XMLElement

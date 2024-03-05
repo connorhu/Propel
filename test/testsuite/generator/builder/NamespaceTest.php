@@ -15,7 +15,6 @@ set_include_path(get_include_path() . PATH_SEPARATOR . realpath(__DIR__ . '/../.
  * Tests for Namespaces in generated classes class
  * Requires a build of the 'namespaced' fixture
  *
- * @version    $Revision$
  * @package    generator.builder
  */
 class NamespaceTest extends \PHPUnit\Framework\TestCase

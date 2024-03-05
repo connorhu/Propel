@@ -18,7 +18,6 @@ require_once __DIR__ . '/Pluralizer.php';
  * @link http://api.cakephp.org/view_source/inflector/
  *
  * @author     paul.hanssen
- * @version    $Revision$
  * @package    propel.generator.builder.util
  */
 class StandardEnglishPluralizer implements Pluralizer

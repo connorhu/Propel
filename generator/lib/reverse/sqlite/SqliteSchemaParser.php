@@ -14,7 +14,6 @@ require_once __DIR__ . '/../BaseSchemaParser.php';
  * SQLite database schema parser.
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.generator.reverse.sqlite
  */
 class SqliteSchemaParser extends BaseSchemaParser

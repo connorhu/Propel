@@ -18,7 +18,6 @@ require_once __DIR__ . '/../../../../../generator/lib/model/ColumnDefaultValue.p
  * Test class for PHP5ObjectBuilder.
  *
  * @author     François Zaninotto
- * @version    $Id$
  * @package    generator.builder.om
  */
 class PHP5ObjectBuilderTest extends \PHPUnit\Framework\TestCase

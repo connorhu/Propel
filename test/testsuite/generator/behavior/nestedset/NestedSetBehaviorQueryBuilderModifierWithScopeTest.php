@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/behavior/BookstoreN
  * Tests for NestedSetBehaviorQueryBuilderModifier class with scope enabled
  *
  * @author		François Zaninotto
- * @version		$Revision$
  * @package		generator.behavior.nestedset
  */
 class NestedSetBehaviorQueryBuilderModifierWithScopeTest extends BookstoreNestedSetTestBase

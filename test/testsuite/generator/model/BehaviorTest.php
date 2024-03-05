@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../generator/lib/behavior/TimestampableBehavio
  * Tests for Behavior class
  *
  * @author     <a href="mailto:mpoeschl@marmot.at>Martin Poeschl</a>
- * @version    $Revision$
  * @package    generator.model
  */
 class BehaviorTest extends \PHPUnit\Framework\TestCase

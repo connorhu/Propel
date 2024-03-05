@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  * Test class for PropelCollection.
  *
  * @author     Francois Zaninotto
- * @version    $Id: PropelCollectionTest.php 1348 2009-12-03 21:49:00Z francois $
  * @package    runtime.collection
  */
 class PropelCollectionTest extends BookstoreTestBase

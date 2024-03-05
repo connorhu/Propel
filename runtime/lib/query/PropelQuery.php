@@ -12,7 +12,6 @@
  * Factory for model queries
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.runtime.query
  */
 class PropelQuery

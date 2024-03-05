@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/BookstoreTestBase.p
  * Tests for AggregateColumnBehavior class
  *
  * @author		 François Zaninotto
- * @version		$Revision$
  * @package		generator.behavior.aggregate_column
  */
 class AggregateColumnBehaviorTest extends BookstoreTestBase

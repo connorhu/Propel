@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../../generator/lib/builder/om/OMBuilder.php';
  * Test class for OMBuilder.
  *
  * @author     François Zaninotto
- * @version    $Id: OMBuilderBuilderTest.php 1347 2009-12-03 21:06:36Z francois $
  * @package    generator.builder.om
  */
 class OMBuilderTest extends \PHPUnit\Framework\TestCase

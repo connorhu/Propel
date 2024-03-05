@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/BookstoreTestBase.p
  * Tests for SluggableBehavior class
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    generator.behavior.sluggable
  */
 class SluggableBehaviorTest extends BookstoreTestBase

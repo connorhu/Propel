@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  * Test the utility class PropelPager
  *
  * @author		 Francois Zaninotto
- * @version		 $Id: PropelModelPagerTest.php
  * @package		 runtime.util
  */
 class PropelModelPagerTest extends BookstoreEmptyTestBase

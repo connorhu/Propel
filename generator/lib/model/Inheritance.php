@@ -15,7 +15,6 @@ require_once __DIR__ . '/XMLElement.php';
  *
  * @author     Hans Lellelid <hans@xmpl.org> (Propel)
  * @author     John McNally <jmcnally@collab.net> (Torque)
- * @version    $Revision$
  * @package    propel.generator.model
  */
 class Inheritance extends XMLElement

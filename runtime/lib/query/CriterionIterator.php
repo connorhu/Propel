@@ -14,7 +14,6 @@
  * to doing it this way, but it makes sense -- and simpler code.
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.runtime.query
  */
 class CriterionIterator implements Iterator

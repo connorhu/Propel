@@ -14,7 +14,6 @@ require_once __DIR__ . '/MssqlPlatform.php';
  * MS SQL Server using pdo_sqlsrv implementation.
  *
  * @author     Benjamin Runnels
- * @version    $Revision$
  * @package    propel.generator.platform
  */
 class SqlsrvPlatform extends MssqlPlatform

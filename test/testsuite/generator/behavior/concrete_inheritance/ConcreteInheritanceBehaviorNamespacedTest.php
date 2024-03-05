@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/namespaces/NamespacesTestBase
  * Tests for ConcreteInheritanceBehaviorNamespacedTest class
  *
  * @author    François Zaniontto
- * @version   $Revision$
  * @package   generator.behavior.concrete_inheritance
  */
 class ConcreteInheritanceBehaviorNamespacedTest extends NamespacesTestBase

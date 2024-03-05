@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreDataPopulator
  * Test class for ModelCriteria.
  *
  * @author     Francois Zaninotto
- * @version    $Id: ModelCriteriaTest.php 1662 2010-04-10 22:02:49Z francois $
  * @package    runtime.query
  */
 class ModelCriteriaHooksTest extends BookstoreTestBase

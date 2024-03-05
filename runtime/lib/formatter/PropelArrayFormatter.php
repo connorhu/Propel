@@ -13,7 +13,6 @@
  * format() returns a PropelArrayCollection of associative arrays
  *
  * @author     Francois Zaninotto
- * @version    $Revision$
  * @package    propel.runtime.formatter
  */
 class PropelArrayFormatter extends PropelFormatter

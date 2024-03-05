@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../../runtime/lib/Propel.php';
  * Tests for ArchivableBehavior class
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    generator.behavior.archivable
  */
 class ArchivableBehaviorQueryBuilderModifierTest extends \PHPUnit\Framework\TestCase

@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/DummyPlatforms.php';
 /**
  * Tests for Database model class.
  *
- * @version    $Revision$
  * @package    generator.model
  */
 class DatabaseTest extends \PHPUnit\Framework\TestCase

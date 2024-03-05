@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  * Test class for PropelOnDemandFormatter when Criteria uses with().
  *
  * @author     Francois Zaninotto
- * @version    $Id: PropelOnDemandFormatterWithTest.php 1348 2009-12-03 21:49:00Z francois $
  * @package    runtime.formatter
  */
 class PropelOnDemandFormatterWithTest extends BookstoreEmptyTestBase

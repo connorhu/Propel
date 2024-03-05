@@ -13,7 +13,6 @@ require_once __DIR__ . '/../../../../../generator/lib/builder/util/XmlToAppData.
 /**
  * Tests for XmlToAppData class
  *
- * @version    $Revision$
  * @package    generator.builder.util
  */
 class XmlToAppDataTest extends \PHPUnit\Framework\TestCase

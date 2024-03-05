@@ -18,7 +18,6 @@ require_once __DIR__ . '/../../../../../generator/lib/behavior/concrete_inherita
  * Tests for ConcreteInheritanceBehavior class
  *
  * @author    François Zaniontto
- * @version   $Revision$
  * @package   generator.behavior.concrete_inheritance
  */
 class ConcreteInheritanceBehaviorTest extends BookstoreTestBase

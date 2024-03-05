@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  * Tests for AutoAddPkBehavior class
  *
  * @author		 François Zaninotto
- * @version		$Revision$
  * @package		generator.behavior
  */
 class AutoAddPkBehaviorTest extends BookstoreTestBase

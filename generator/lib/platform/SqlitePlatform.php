@@ -14,7 +14,6 @@ require_once __DIR__ . '/DefaultPlatform.php';
  * SQLite PropelPlatformInterface implementation.
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.generator.platform
  */
 class SqlitePlatform extends DefaultPlatform

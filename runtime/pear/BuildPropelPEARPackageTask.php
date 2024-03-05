@@ -16,7 +16,6 @@ include_once 'phing/tasks/ext/pearpackage/Fileset.php';
  *
  * @author     Hans Lellelid <hans@xmpl.org>
  * @package    phing.tasks.ext
- * @version    $Revision$
  */
 class BuildPropelPEARPackageTask extends MatchingTask
 {

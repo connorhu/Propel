@@ -13,7 +13,6 @@ require_once __DIR__ . '/../../../../generator/lib/model/ColumnDefaultValue.php'
 /**
  * Tests for ColumnDefaultValue class.
  *
- * @version    $Revision$
  * @package    generator.model
  */
 class ColumnDefaultValueTest extends \PHPUnit\Framework\TestCase

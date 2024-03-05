@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/behavior/BookstoreS
  * Tests for SortableBehavior class
  *
  * @author		Massimiliano Arione
- * @version		$Revision$
  * @package		generator.behavior.sortable
  */
 class SortableBehaviorPeerBuilderModifierTest extends BookstoreSortableTestBase

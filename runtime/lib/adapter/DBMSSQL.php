@@ -12,7 +12,6 @@
  * This is used to connect to a MSSQL database.
  *
  * @author     Hans Lellelid <hans@xmpl.org> (Propel)
- * @version    $Revision$
  * @package    propel.runtime.adapter
  */
 class DBMSSQL extends DBAdapter

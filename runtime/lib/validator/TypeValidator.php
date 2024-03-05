@@ -20,7 +20,6 @@
  * </code>
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.runtime.validator
  */
 class TypeValidator implements BasicValidator

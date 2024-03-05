@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  * Test class for DatabaseMap.
  *
  * @author     François Zaninotto
- * @version    $Id$
  * @package    runtime.map
  */
 class DatabaseMapTest extends BookstoreTestBase

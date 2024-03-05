@@ -13,7 +13,6 @@
  * format() returns a PropelObjectCollection of Propel model objects
  *
  * @author     Francois Zaninotto
- * @version    $Revision$
  * @package    propel.runtime.formatter
  */
 class PropelObjectFormatter extends PropelFormatter

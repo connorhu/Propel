@@ -12,7 +12,6 @@
  * Pre-order node iterator for Node objects.
  *
  * @author     Dave Lawson <dlawson@masterytech.com>
- * @version    $Revision$
  * @package    propel.runtime.om
  */
 class PreOrderNodeIterator implements Iterator

@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../runtime/lib/util/PropelConditionalProxy.php
  * Test class for PropelConditionalProxy.
  *
  * @author     Julien Muetton <julien_muetton@carpe-hora.com>
- * @version    $Id: CriteriaCombineTest.php 1347 2009-12-03 21:06:36Z francois $
  * @package    propel.runtime.util
  */
 class PropelConditionalProxyTest extends BaseTestCase

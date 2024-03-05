@@ -14,7 +14,6 @@
  *
  * @author     Prancois Zaninotto
  * @author     Fabien Potencier
- * @version    $Revision$
  * @package    propel.util
  */
 class PropelAutoloader

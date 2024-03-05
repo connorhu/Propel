@@ -14,7 +14,6 @@
  * And an additional condition for every read query to only consider rows with no deletion date
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.generator.behavior
  */
 class SoftDeleteBehavior extends Behavior

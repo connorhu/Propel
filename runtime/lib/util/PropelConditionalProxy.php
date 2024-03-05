@@ -28,7 +28,6 @@
  * @see Criteria
  *
  * @author     Francois Zaninotto
- * @version    $Revision$
  * @package    propel.runtime.util
  */
 class PropelConditionalProxy

@@ -18,7 +18,6 @@ require_once __DIR__ . '/../../../../generator/lib/util/PropelQuickBuilder.php';
  * Tests for TimestampableBehavior class
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    generator.behavior
  */
 class TimestampableBehaviorTest extends BookstoreTestBase

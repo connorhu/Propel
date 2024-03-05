@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../../runtime/lib/Propel.php';
  * Tests for VersionableBehavior class
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    generator.behavior.versionable
  */
 class VersionableBehaviorPeerBuilderModifierTest extends \PHPUnit\Framework\TestCase

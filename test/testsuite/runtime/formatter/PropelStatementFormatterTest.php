@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  * Test class for PropelStatementFormatter.
  *
  * @author     Francois Zaninotto
- * @version    $Id$
  * @package    runtime.formatter
  */
 class PropelStatementFormatterTest extends BookstoreEmptyTestBase

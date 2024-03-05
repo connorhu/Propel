@@ -13,7 +13,6 @@ require_once __DIR__ . '/../../../../../generator/lib/builder/util/PropelTemplat
 /**
  * Tests for PropelTemplate class
  *
- * @version    $Revision$
  * @package    generator.builder.util
  */
 class PropelTemplateTest extends \PHPUnit\Framework\TestCase

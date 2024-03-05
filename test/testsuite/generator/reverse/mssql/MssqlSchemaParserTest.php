@@ -8,8 +8,8 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../../generator/lib/reverse/mssql/MssqlSchemaParser.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/PropelTypes.php';
+require_once __DIR__ . '/../../../../../generator/lib/reverse/mssql/MssqlSchemaParser.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/PropelTypes.php';
 
 /**
  * Tests for Mssql database schema parser.

@@ -9,7 +9,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../tools/helpers/namespaces/NamespacesTestBase.php';
+require_once __DIR__ . '/../../../../tools/helpers/namespaces/NamespacesTestBase.php';
 
 /**
  * Tests for ConcreteInheritanceBehaviorNamespacedTest class

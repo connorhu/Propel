@@ -8,11 +8,11 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../runtime/lib/map/ColumnMap.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/map/RelationMap.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/map/TableMap.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/map/DatabaseMap.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/exception/PropelException.php';
+require_once __DIR__ . '/../../../../runtime/lib/map/ColumnMap.php';
+require_once __DIR__ . '/../../../../runtime/lib/map/RelationMap.php';
+require_once __DIR__ . '/../../../../runtime/lib/map/TableMap.php';
+require_once __DIR__ . '/../../../../runtime/lib/map/DatabaseMap.php';
+require_once __DIR__ . '/../../../../runtime/lib/exception/PropelException.php';
 
 /**
  * Test class for TableMap.

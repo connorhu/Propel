@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/OMBuilder.php';
+require_once __DIR__ . '/OMBuilder.php';
 
 /**
  * Generates the PHP5 table map class for user object model (OM).

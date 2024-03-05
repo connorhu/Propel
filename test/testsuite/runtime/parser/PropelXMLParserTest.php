@@ -8,8 +8,8 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../runtime/lib/parser/PropelParser.php';
-require_once dirname(__FILE__) . '/../../../../runtime/lib/parser/PropelXMLParser.php';
+require_once __DIR__ . '/../../../../runtime/lib/parser/PropelParser.php';
+require_once __DIR__ . '/../../../../runtime/lib/parser/PropelXMLParser.php';
 
 /**
  * Test for PropelXMLParser class

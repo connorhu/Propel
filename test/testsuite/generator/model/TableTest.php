@@ -9,11 +9,11 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../generator/lib/builder/util/XmlToAppData.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/config/GeneratorConfig.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/platform/DefaultPlatform.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/platform/MysqlPlatform.php';
-require_once dirname(__FILE__) . '/../../../tools/helpers/DummyPlatforms.php';
+require_once __DIR__ . '/../../../../generator/lib/builder/util/XmlToAppData.php';
+require_once __DIR__ . '/../../../../generator/lib/config/GeneratorConfig.php';
+require_once __DIR__ . '/../../../../generator/lib/platform/DefaultPlatform.php';
+require_once __DIR__ . '/../../../../generator/lib/platform/MysqlPlatform.php';
+require_once __DIR__ . '/../../../tools/helpers/DummyPlatforms.php';
 
 /**
  * Tests for Table model class
@@ -77,7 +77,7 @@ EOF;
     public function testAddBehavior()
     {
         $include_path = get_include_path();
-        set_include_path($include_path . PATH_SEPARATOR . realpath(dirname(__FILE__) . '/../../../../generator/lib'));
+        set_include_path($include_path . PATH_SEPARATOR . realpath(__DIR__ . '/../../../../generator/lib'));
         $xmlToAppData = new XmlToAppData(new DefaultPlatform());
         $config = new GeneratorConfig();
         $config->setBuildProperties(array(
@@ -103,7 +103,7 @@ EOF;
     public function testAddExtraIndicesForeignKeys()
     {
         $include_path = get_include_path();
-        set_include_path($include_path . PATH_SEPARATOR . realpath(dirname(__FILE__) . '/../../../../generator/lib'));
+        set_include_path($include_path . PATH_SEPARATOR . realpath(__DIR__ . '/../../../../generator/lib'));
 
         $platform = new MysqlPlatform();
         $xmlToAppData = new XmlToAppData($platform);

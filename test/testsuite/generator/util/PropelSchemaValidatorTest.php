@@ -8,9 +8,9 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../generator/lib/util/PropelSchemaValidator.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/util/PropelQuickBuilder.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/model/AppData.php';
+require_once __DIR__ . '/../../../../generator/lib/util/PropelSchemaValidator.php';
+require_once __DIR__ . '/../../../../generator/lib/util/PropelQuickBuilder.php';
+require_once __DIR__ . '/../../../../generator/lib/model/AppData.php';
 
 /**
  *

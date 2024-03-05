@@ -9,7 +9,7 @@
  */
 
 require_once 'task/AbstractPropelTask.php';
-require_once dirname(__FILE__) . '/../util/PropelSQLParser.php';
+require_once __DIR__ . '/../util/PropelSQLParser.php';
 
 /**
  * Executes all SQL files referenced in the sqldbmap file against their mapped databases.

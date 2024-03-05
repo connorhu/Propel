@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/ObjectBuilder.php';
+require_once __DIR__ . '/ObjectBuilder.php';
 
 /**
  * Generates the empty PHP5 stub node object class for user object model (OM).

@@ -8,16 +8,16 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../../runtime/lib/Propel.php';
+require_once __DIR__ . '/../../../../../runtime/lib/Propel.php';
 
-require_once dirname(__FILE__) . '/../../../../../generator/lib/reverse/pgsql/PgsqlSchemaParser.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/config/QuickGeneratorConfig.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/PropelTypes.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/model/Database.php';
-require_once dirname(__FILE__) . '/../../../../../generator/lib/platform/DefaultPlatform.php';
+require_once __DIR__ . '/../../../../../generator/lib/reverse/pgsql/PgsqlSchemaParser.php';
+require_once __DIR__ . '/../../../../../generator/lib/config/QuickGeneratorConfig.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/PropelTypes.php';
+require_once __DIR__ . '/../../../../../generator/lib/model/Database.php';
+require_once __DIR__ . '/../../../../../generator/lib/platform/DefaultPlatform.php';
 
-set_include_path(get_include_path().PATH_SEPARATOR.dirname(__FILE__).'/../../../../../generator/lib');
-require_once dirname(__FILE__) . '/../../../../../generator/lib/task/PropelConvertConfTask.php';
+set_include_path(get_include_path().PATH_SEPARATOR.__DIR__.'/../../../../../generator/lib');
+require_once __DIR__ . '/../../../../../generator/lib/task/PropelConvertConfTask.php';
 
 /**
  * Tests for Pgsql database schema parser.
@@ -35,7 +35,7 @@ class PgsqlSchemaParserTest extends \PHPUnit\Framework\TestCase
         parent::setUp();
 
         $xmlDom = new DOMDocument();
-        $xmlDom->load(dirname(__FILE__) . '/../../../../fixtures/reverse/pgsql/runtime-conf.xml');
+        $xmlDom->load(__DIR__ . '/../../../../fixtures/reverse/pgsql/runtime-conf.xml');
         $xml = simplexml_load_string($xmlDom->saveXML());
         $phpconf = TestablePropelConvertConfTask::simpleXmlToArray($xml);
 
@@ -53,7 +53,7 @@ class PgsqlSchemaParserTest extends \PHPUnit\Framework\TestCase
         }
 
         parent::tearDown();
-        Propel::init(dirname(__FILE__) . '/../../../../fixtures/bookstore/build/conf/bookstore-conf.php');
+        Propel::init(__DIR__ . '/../../../../fixtures/bookstore/build/conf/bookstore-conf.php');
     }
 
     public function parseDataProvider()

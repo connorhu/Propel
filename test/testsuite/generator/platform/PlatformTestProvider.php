@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/PlatformTestBase.php';
+require_once __DIR__ . '/PlatformTestBase.php';
 
 /**
  * provider for platform DDL unit tests

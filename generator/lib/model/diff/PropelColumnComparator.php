@@ -8,8 +8,8 @@
  * @license     MIT License
  */
 
-require_once dirname(__FILE__) . '/../Column.php';
-require_once dirname(__FILE__) . '/PropelColumnDiff.php';
+require_once __DIR__ . '/../Column.php';
+require_once __DIR__ . '/PropelColumnDiff.php';
 
 /**
  * Service class for comparing Column objects.

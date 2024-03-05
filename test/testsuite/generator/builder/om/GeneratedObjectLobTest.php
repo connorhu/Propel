@@ -8,10 +8,10 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../tools/helpers/bookstore/BookstoreEmptyTestBase.php';
+require_once __DIR__ . '/../../../../tools/helpers/bookstore/BookstoreEmptyTestBase.php';
 
 if (!defined('TESTS_BASE_DIR')) {
-    define('TESTS_BASE_DIR', realpath(dirname(__FILE__) . '/../../../..'));
+    define('TESTS_BASE_DIR', realpath(__DIR__ . '/../../../..'));
 }
 
 /**

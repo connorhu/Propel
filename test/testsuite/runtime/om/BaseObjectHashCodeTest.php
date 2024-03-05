@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../tools/helpers/bookstore/BookstoreTestBase.php';
+require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php';
 
 /**
  * Test class for BaseObject serialization.

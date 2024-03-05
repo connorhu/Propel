@@ -8,10 +8,10 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/PlatformMigrationTestProvider.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/platform/PgsqlPlatform.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/model/Column.php';
-require_once dirname(__FILE__) . '/../../../../generator/lib/model/VendorInfo.php';
+require_once __DIR__ . '/PlatformMigrationTestProvider.php';
+require_once __DIR__ . '/../../../../generator/lib/platform/PgsqlPlatform.php';
+require_once __DIR__ . '/../../../../generator/lib/model/Column.php';
+require_once __DIR__ . '/../../../../generator/lib/model/VendorInfo.php';
 
 /**
  *

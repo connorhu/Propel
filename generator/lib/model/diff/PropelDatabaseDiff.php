@@ -8,8 +8,8 @@
  * @license     MIT License
  */
 
-require_once dirname(__FILE__) . '/../Database.php';
-require_once dirname(__FILE__) . '/PropelTableDiff.php';
+require_once __DIR__ . '/../Database.php';
+require_once __DIR__ . '/PropelTableDiff.php';
 
 /**
  * Value object for storing Database object diffs

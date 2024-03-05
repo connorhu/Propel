@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../../../../generator/lib/model/PhpNameGenerator.php';
+require_once __DIR__ . '/../../../../generator/lib/model/PhpNameGenerator.php';
 
 /**
  * Tests for PhpNameGenerator

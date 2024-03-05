@@ -8,7 +8,7 @@
  * @license    MIT License
  */
 
-require_once dirname(__FILE__) . '/../BaseSchemaParser.php';
+require_once __DIR__ . '/../BaseSchemaParser.php';
 
 /**
  * Postgresql database schema parser.

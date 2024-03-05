@@ -19,7 +19,7 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  */
 class PropelCollectionConvertTest extends BookstoreTestBase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $book1 = new Book();

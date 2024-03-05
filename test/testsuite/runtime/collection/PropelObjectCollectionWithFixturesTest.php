@@ -19,7 +19,7 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  */
 class PropelObjectCollectionWithFixturesTest extends BookstoreEmptyTestBase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         BookstoreDataPopulator::populate($this->con);

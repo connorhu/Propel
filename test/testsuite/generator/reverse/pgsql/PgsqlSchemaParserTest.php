@@ -28,7 +28,7 @@ require_once __DIR__ . '/../../../../../generator/lib/task/PropelConvertConfTask
  */
 class PgsqlSchemaParserTest extends \PHPUnit\Framework\TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->markTestSkipped('PGSQL unit test');
 
@@ -46,7 +46,7 @@ class PgsqlSchemaParserTest extends \PHPUnit\Framework\TestCase
         $this->con->beginTransaction();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         if ($this->con) {
             $this->con->rollback();

@@ -19,7 +19,7 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  */
 class PropelOnDemandCollectionTest extends BookstoreEmptyTestBase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         BookstoreDataPopulator::populate($this->con);
@@ -27,7 +27,7 @@ class PropelOnDemandCollectionTest extends BookstoreEmptyTestBase
         $this->books = PropelQuery::from('Book')->setFormatter(ModelCriteria::FORMAT_ON_DEMAND)->find();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
         Propel::enableInstancePooling();

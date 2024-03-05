@@ -12,7 +12,7 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
 
 class PropelSimpleArrayFormatterTest extends BookstoreEmptyTestBase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         BookstoreDataPopulator::populate();

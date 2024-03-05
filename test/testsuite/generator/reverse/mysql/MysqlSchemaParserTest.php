@@ -28,7 +28,7 @@ require_once __DIR__ . '/../../../../../generator/lib/task/PropelConvertConfTask
  */
 class MysqlSchemaParserTest extends \PHPUnit\Framework\TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
 
@@ -41,7 +41,7 @@ class MysqlSchemaParserTest extends \PHPUnit\Framework\TestCase
         Propel::initialize();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         parent::tearDown();
         Propel::init(__DIR__ . '/../../../../fixtures/bookstore/build/conf/bookstore-conf.php');

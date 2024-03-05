@@ -20,7 +20,7 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreDataPopulator
  */
 class ModelCriteriaHooksTest extends BookstoreTestBase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         BookstoreDataPopulator::depopulate();

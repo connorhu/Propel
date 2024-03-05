@@ -21,7 +21,7 @@ require_once __DIR__ . '/../../../../../generator/lib/model/Database.php';
  */
 class PropelTableForeignKeyComparatorTest extends \PHPUnit\Framework\TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         $this->platform = new MysqlPlatform();
     }

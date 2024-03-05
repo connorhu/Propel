@@ -19,7 +19,7 @@ require_once __DIR__ . '/../../../../../runtime/lib/Propel.php';
  */
 class GeneratedObjectEnumColumnTypeTest extends \PHPUnit\Framework\TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         if (!class_exists('ComplexColumnTypeEntity3')) {
             $schema = <<<EOF

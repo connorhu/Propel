@@ -24,7 +24,7 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/BookstoreEmptyTestB
  */
 class GeneratedObjectWithFixturesTest extends BookstoreEmptyTestBase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         require_once __DIR__ . '/../../../../tools/helpers/bookstore/behavior/TestAuthor.php';

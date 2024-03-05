@@ -18,7 +18,7 @@ class GeneratorConfigTest extends \PHPUnit\Framework\TestCase
 {
     protected $pathToFixtureFiles;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->pathToFixtureFiles = __DIR__ . '/../../../fixtures/generator/config';
     }

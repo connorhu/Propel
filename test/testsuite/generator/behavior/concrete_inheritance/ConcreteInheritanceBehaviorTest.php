@@ -23,7 +23,7 @@ require_once __DIR__ . '/../../../../../generator/lib/behavior/concrete_inherita
  */
 class ConcreteInheritanceBehaviorTest extends BookstoreTestBase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 

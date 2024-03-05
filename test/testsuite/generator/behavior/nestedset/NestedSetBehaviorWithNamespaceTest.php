@@ -15,7 +15,7 @@ require_once __DIR__ . '/../../../../../runtime/lib/Propel.php';
 
 class NestedSetBehaviorWithNamespaceTest extends BookstoreTestBase
 {
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 

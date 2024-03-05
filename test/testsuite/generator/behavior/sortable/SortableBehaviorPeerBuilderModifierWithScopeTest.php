@@ -21,7 +21,7 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/behavior/BookstoreS
  */
 class SortableBehaviorPeerBuilderModifierWithScopeTest extends BookstoreSortableTestBase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->populateTable12();

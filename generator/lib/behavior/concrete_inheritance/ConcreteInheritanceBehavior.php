@@ -18,7 +18,6 @@ require_once 'ConcreteInheritanceParentBehavior.php';
  * to the parent model.
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.generator.behavior.concrete_inheritance
  */
 class ConcreteInheritanceBehavior extends Behavior

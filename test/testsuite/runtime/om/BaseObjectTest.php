@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../../runtime/lib/om/BaseObject.php';
  * Test class for BaseObject.
  *
  * @author     François Zaninotto
- * @version    $Id: BaseObjectTest.php 1347 2009-12-03 21:06:36Z francois $
  * @package    runtime.om
  */
 class BaseObjectTest extends \PHPUnit\Framework\TestCase

@@ -17,7 +17,6 @@
  * PropelConfiguration instance.
  *
  * @author     Veikko Mäkinen <veikko@veikko.fi>
- * @version    $Revision$
  * @package    propel.runtime.config
  */
 class PropelConfiguration implements ArrayAccess

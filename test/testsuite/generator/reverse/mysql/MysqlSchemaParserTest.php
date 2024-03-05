@@ -23,7 +23,6 @@ require_once __DIR__ . '/../../../../../generator/lib/task/PropelConvertConfTask
  * Tests for Mysql database schema parser.
  *
  * @author      William Durand
- * @version     $Revision$
  * @package     propel.generator.reverse.mysql
  */
 class MysqlSchemaParserTest extends \PHPUnit\Framework\TestCase

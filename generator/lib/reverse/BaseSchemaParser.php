@@ -14,7 +14,6 @@ require_once __DIR__ . '/SchemaParser.php';
  * Base class for reverse engineering a database schema.
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.generator.reverse
  */
 abstract class BaseSchemaParser implements SchemaParser

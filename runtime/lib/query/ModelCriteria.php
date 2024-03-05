@@ -26,7 +26,6 @@
  * @property   ModelJoin[] $joins
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.runtime.query
  */
 class ModelCriteria extends Criteria

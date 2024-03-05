@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../../generator/lib/model/PhpNameGenerator.php';
  * Tests for PhpNameGenerator
  *
  * @author     <a href="mailto:mpoeschl@marmot.at>Martin Poeschl</a>
- * @version    $Revision$
  * @package    generator.model
  */
 class PhpNameGeneratorTest extends \PHPUnit\Framework\TestCase

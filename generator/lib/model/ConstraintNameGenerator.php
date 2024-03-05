@@ -15,7 +15,6 @@
  *
  * @author     Hans Lellelid <hans@xmpl.org> (Propel)
  * @author     Daniel Rall <dlr@finemaltcoding.com> (Torque)
- * @version    $Revision$
  * @package    propel.generator.model
  */
 class ConstraintNameGenerator implements NameGenerator

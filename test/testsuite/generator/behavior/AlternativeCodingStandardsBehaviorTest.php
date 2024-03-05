@@ -16,7 +16,6 @@ require_once __DIR__ . '/../../../../generator/lib/behavior/AlternativeCodingSta
  * Tests for TimestampableBehavior class
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    generator.behavior
  */
 class AlternativeCodingStandardsBehaviorTest extends \PHPUnit\Framework\TestCase

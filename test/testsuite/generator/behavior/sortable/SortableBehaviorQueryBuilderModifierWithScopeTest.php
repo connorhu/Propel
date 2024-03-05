@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/behavior/BookstoreS
  * Tests for SortableBehavior class query modifier when the scope is enabled
  *
  * @author		Francois Zaninotto
- * @version		$Revision$
  * @package		generator.behavior.sortable
  */
 class SortableBehaviorQueryBuilderModifierWithScopeTest extends BookstoreSortableTestBase

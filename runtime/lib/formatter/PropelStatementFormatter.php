@@ -13,7 +13,6 @@
  * format() returns a PDO statement
  *
  * @author     Francois Zaninotto
- * @version    $Revision$
  * @package    propel.runtime.formatter
  */
 class PropelStatementFormatter extends PropelFormatter

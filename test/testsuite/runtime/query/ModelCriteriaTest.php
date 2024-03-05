@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreDataPopulator
  * Test class for ModelCriteria.
  *
  * @author     Francois Zaninotto
- * @version    $Id$
  * @package    runtime.query
  */
 class ModelCriteriaTest extends BookstoreTestBase

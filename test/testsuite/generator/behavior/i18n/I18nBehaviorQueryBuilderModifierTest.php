@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../../runtime/lib/Propel.php';
  * Tests for I18nBehavior class query modifier
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    generator.behavior.i18n
  */
 class I18nBehaviorQueryBuilderModifierTest extends \PHPUnit\Framework\TestCase

@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../runtime/lib/Propel.php';
  * Tests for DelegateBehavior class
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    generator.behavior
  */
 class DelegateBehaviorTest extends \PHPUnit\Framework\TestCase

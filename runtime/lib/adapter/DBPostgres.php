@@ -15,7 +15,6 @@
  *
  * @author     Hans Lellelid <hans@xmpl.org> (Propel)
  * @author     Hakan Tandogan <hakan42@gmx.de> (Torque)
- * @version    $Revision$
  * @package    propel.runtime.adapter
  */
 class DBPostgres extends DBAdapter

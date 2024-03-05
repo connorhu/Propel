@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../generator/lib/behavior/AutoAddPkBehavior.ph
  * Tests for package handling.
  *
  * @author     <a href="mailto:mpoeschl@marmot.at>Martin Poeschl</a>
- * @version    $Revision$
  * @package    generator.model
  */
 class ColumnTest extends \PHPUnit\Framework\TestCase

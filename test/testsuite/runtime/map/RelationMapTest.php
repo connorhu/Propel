@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../../runtime/lib/map/TableMap.php';
  * Test class for RelationMap.
  *
  * @author     François Zaninotto
- * @version    $Id$
  * @package    runtime.map
  */
 class RelationMapTest extends \PHPUnit\Framework\TestCase

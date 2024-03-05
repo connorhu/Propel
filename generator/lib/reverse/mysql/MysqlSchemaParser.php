@@ -14,7 +14,6 @@ require_once __DIR__ . '/../BaseSchemaParser.php';
  * Mysql database schema parser.
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.generator.reverse.mysql
  */
 class MysqlSchemaParser extends BaseSchemaParser

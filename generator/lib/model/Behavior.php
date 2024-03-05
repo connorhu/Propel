@@ -15,7 +15,6 @@ require_once __DIR__ . '/../builder/util/PropelTemplate.php';
  * Information about behaviors of a table.
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.generator.model
  */
 class Behavior extends XMLElement

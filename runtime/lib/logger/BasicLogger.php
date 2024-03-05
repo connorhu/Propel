@@ -18,7 +18,6 @@
  * and Jon Parise <jon@php.net>.
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.runtime.logger
  */
 interface BasicLogger

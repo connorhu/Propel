@@ -26,7 +26,6 @@ require_once __DIR__ . '/../../../../generator/lib/model/AppData.php';
  * characters.</p>
  *
  * @author     <a href="mailto:dlr@collab.net">Daniel Rall</a>
- * @version    $Id$
  * @package    generator.model
  */
 class NameFactoryTest extends BaseTestCase

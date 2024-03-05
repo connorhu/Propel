@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  * Test class for PHP5TableMapBuilder.
  *
  * @author     François Zaninotto
- * @version    $Id$
  * @package    runtime.map
  */
 class GeneratedRelationMapTest extends BookstoreTestBase

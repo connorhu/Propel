@@ -29,7 +29,6 @@ require_once __DIR__ . '/Behavior.php';
  * @author     John McNally <jmcnally@collab.net> (Torque)
  * @author     Daniel Rall <dlr@collab.net> (Torque)
  * @author     Byron Foster <byron_foster@yahoo.com> (Torque)
- * @version    $Revision$
  * @package    propel.generator.model
  */
 class Table extends ScopedElement implements IDMethod

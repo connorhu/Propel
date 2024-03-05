@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreDataPopulator
  * Test class for BaseObject serialization.
  *
  * @author     Francois Zaninotto
- * @version    $Id: PropelCollectionTest.php 1348 2009-12-03 21:49:00Z francois $
  * @package    runtime.om
  */
 class BaseObjectSerializeTest extends BookstoreTestBase

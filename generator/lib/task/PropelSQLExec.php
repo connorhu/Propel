@@ -24,7 +24,6 @@ require_once __DIR__ . '/../util/PropelSQLParser.php';
  * @author     Tim Stephenson <tim.stephenson@sybase.com> (Torque)
  * @author     Jason van Zyl <jvanzyl@apache.org> (Torque)
  * @author     Martin Poeschl <mpoeschl@marmot.at> (Torque)
- * @version    $Revision$
  * @package    propel.generator.task
  */
 class PropelSQLExec extends AbstractPropelTask

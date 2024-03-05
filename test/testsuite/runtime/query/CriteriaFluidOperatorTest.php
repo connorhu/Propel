@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  * Test class for Criteria fluid operators.
  *
  * @author     Francois Zaninotto
- * @version    $Id: CriteriaCombineTest.php 1347 2009-12-03 21:06:36Z francois $
  * @package    runtime.query
  */
 class CriteriaFluidOperatorTest extends BookstoreTestBase

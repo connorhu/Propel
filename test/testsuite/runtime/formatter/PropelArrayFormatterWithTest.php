@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  * Test class for PropelArrayFormatter when Criteria uses with().
  *
  * @author     Francois Zaninotto
- * @version    $Id: PropelArrayFormatterWithTest.php 1348 2009-12-03 21:49:00Z francois $
  * @package    runtime.formatter
  */
 class PropelArrayFormatterWithTest extends BookstoreEmptyTestBase

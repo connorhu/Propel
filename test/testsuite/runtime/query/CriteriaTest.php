@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  *
  * @author     <a href="mailto:celkins@scardini.com">Christopher Elkins</a>
  * @author     <a href="mailto:sam@neurogrid.com">Sam Joseph</a>
- * @version    $Id$
  * @package    runtime.query
  */
 class CriteriaTest extends BookstoreTestBase

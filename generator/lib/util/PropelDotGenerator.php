@@ -13,7 +13,6 @@
  *
  * @author     Mark Kimsal
  * @author     Toni Uebernickel <tuebernickel@gmail.com>
- * @version    $Revision$
  * @package    propel.generator.task
  */
 class PropelDotGenerator

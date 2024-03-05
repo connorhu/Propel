@@ -18,7 +18,6 @@ require_once __DIR__ . '/../../../../runtime/lib/exception/PropelException.php';
  * Test class for TableMap.
  *
  * @author     François Zaninotto
- * @version    $Id$
  * @package    runtime.map
  */
 class TableMapTest extends \PHPUnit\Framework\TestCase

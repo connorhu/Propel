@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreTestBase.php'
  * Tests for SoftDeleteBehavior class
  *
  * @author		 François Zaninotto
- * @version		$Revision$
  * @package		generator.behavior
  */
 class SoftDeleteBehaviorTest extends BookstoreTestBase

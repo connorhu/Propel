@@ -12,7 +12,6 @@
  * Abstract class for query formatter
  *
  * @author     Francois Zaninotto
- * @version    $Revision$
  * @package    propel.runtime.formatter
  */
 abstract class PropelFormatter

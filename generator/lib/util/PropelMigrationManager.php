@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../runtime/lib/Propel.php';
  * Service class for preparing and executing migrations
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.generator.util
  */
 class PropelMigrationManager

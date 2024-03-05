@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/behavior/BookstoreS
  * Tests for SortableBehavior class query modifier
  *
  * @author		Francois Zaninotto
- * @version		$Revision$
  * @package		generator.behavior.sortable
  */
 class SortableBehaviorQueryBuilderModifierTest extends BookstoreSortableTestBase

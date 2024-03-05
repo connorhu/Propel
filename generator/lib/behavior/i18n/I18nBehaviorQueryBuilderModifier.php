@@ -13,7 +13,6 @@
  * Modifier for the query builder.
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.generator.behavior.i18n
  */
 class I18nBehaviorQueryBuilderModifier

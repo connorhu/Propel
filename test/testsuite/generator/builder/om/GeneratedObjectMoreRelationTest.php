@@ -13,7 +13,6 @@
  * Tests for More relations
  *
  * @author		MArc J. Schmidt
- * @version		$Revision$
  * @package		generator.builder.om
  */
 class GeneratedObjectMoreRelationTest extends \PHPUnit\Framework\TestCase

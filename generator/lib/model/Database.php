@@ -23,7 +23,6 @@ require_once __DIR__ . '/Behavior.php';
  * @author     Martin Poeschl<mpoeschl@marmot.at> (Torque)
  * @author     Daniel Rall<dlr@collab.net> (Torque)
  * @author     Byron Foster <byron_foster@yahoo.com> (Torque)
- * @version    $Revision$
  * @package    propel.generator.model
  */
 class Database extends ScopedElement

@@ -18,7 +18,6 @@ Propel::init(__DIR__ . '/../../../fixtures/bookstore/build/conf/bookstore-conf.p
  * Test class for Criteria combinations.
  *
  * @author     Francois Zaninotto
- * @version    $Id$
  * @package    runtime.query
  */
 class CriteriaCombineTest extends BaseTestCase

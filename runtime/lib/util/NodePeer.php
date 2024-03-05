@@ -12,7 +12,6 @@
  * This is a utility interface for all generated NodePeer classes in the system.
  *
  * @author     Heltem <heltem@o2php.com> (Propel)
- * @version    $Revision$
  * @package    propel.runtime.util
  */
 interface NodePeer

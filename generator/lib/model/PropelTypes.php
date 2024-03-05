@@ -12,7 +12,6 @@
  * A class that maps PropelTypes to PHP native types, PDO types (and Creole types).
  *
  * @author     Hans Lellelid <hans@xmpl.org> (Propel)
- * @version    $Revision$
  * @package    propel.generator.model
  */
 class PropelTypes

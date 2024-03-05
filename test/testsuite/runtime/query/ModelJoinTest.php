@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreDataPopulator
  * Test class for ModelJoin.
  *
  * @author     François Zaninotto
- * @version    $Id: ModelJoinTest.php 1347 2009-12-03 21:06:36Z francois $
  * @package    runtime.query
  */
 class ModelJoinTest extends BookstoreTestBase

@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/bookstore/BookstoreTestBase.p
  * Tests for ConcreteInheritanceParentBehavior class
  *
  * @author    François Zaniontto
- * @version   $Revision$
  * @package   generator.behavior.concrete_inheritance
  */
 class ConcreteInheritanceExcludedParentBehaviorTest extends BookstoreTestBase

@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../../generator/lib/model/PropelTypes.php';
  * Tests for Mssql database schema parser.
  *
  * @author      Pierre Tachoire
- * @version     $Revision$
  * @package     propel.generator.reverse.mssql
  */
 class MssqlSchemaParserTest extends \PHPUnit\Framework\TestCase

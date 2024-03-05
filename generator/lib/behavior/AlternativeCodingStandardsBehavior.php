@@ -33,7 +33,6 @@
  *   - comments are stripped (optional)
  *
  * @author     François Zaninotto
- * @version    $Revision$
  * @package    propel.generator.behavior
  */
 class AlternativeCodingStandardsBehavior extends Behavior

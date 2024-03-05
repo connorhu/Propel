@@ -13,7 +13,6 @@ require_once __DIR__ . '/../../../../../generator/lib/builder/util/StandardEngli
 /**
  * Tests for the StandardEnglishPluralizer class
  *
- * @version    $Revision$
  * @package    generator.builder.util
  */
 class StandardEnglishPluralizerTest extends \PHPUnit\Framework\TestCase

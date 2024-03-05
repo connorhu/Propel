@@ -15,7 +15,6 @@ require_once __DIR__ . '/../../../../tools/helpers/schemas/SchemasTestBase.php';
  * Tests for ConcreteInheritanceBehavior class
  *
  * @author    François Zaniontto
- * @version   $Revision$
  * @package   generator.behavior.concrete_inheritance
  */
 class ConcreteInheritanceBehaviorWithSchemaTest extends SchemasTestBase

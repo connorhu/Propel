@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/bookstore/BookstoreEmptyTestBase
  * Test class for PropelObjectFormatter.
  *
  * @author     Francois Zaninotto
- * @version    $Id: PropelObjectFormatterTest.php 1374 2009-12-26 23:21:37Z francois $
  * @package    runtime.formatter
  */
 class PropelObjectFormatterInheritanceTest extends BookstoreEmptyTestBase

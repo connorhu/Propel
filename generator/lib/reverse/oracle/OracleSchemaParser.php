@@ -15,7 +15,6 @@ require_once __DIR__ . '/../BaseSchemaParser.php';
  *
  * @author     Hans Lellelid <hans@xmpl.org>
  * @author     Guillermo Gutierrez <ggutierrez@dailycosas.net> (Adaptation)
- * @version    $Revision$
  * @package    propel.generator.reverse.oracle
  */
 class OracleSchemaParser extends BaseSchemaParser

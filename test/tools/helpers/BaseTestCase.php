@@ -17,7 +17,6 @@ require_once __DIR__ . '/../../../runtime/lib/Propel.php';
  * @author     Hans Lellelid <hans@xmpl.org> (Propel)
  * @author     Daniel Rall <dlr@finemaltcoding.com> (Torque)
  * @author     Christopher Elkins <celkins@scardini.com> (Torque)
- * @version    $Revision$
  */
 abstract class BaseTestCase extends \PHPUnit\Framework\TestCase
 {

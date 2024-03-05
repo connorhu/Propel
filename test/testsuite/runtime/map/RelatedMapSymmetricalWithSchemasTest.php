@@ -14,7 +14,6 @@ require_once __DIR__ . '/../../../tools/helpers/schemas/SchemasTestBase.php';
  * Test class for RelatedMap::getSymmetricalRelation with schemas.
  *
  * @author     Ulf Hermann
- * @version    $Id$
  * @package    runtime.map
  */
 class RelatedMapSymmetricalWithSchemasTest extends SchemasTestBase

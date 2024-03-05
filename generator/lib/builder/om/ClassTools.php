@@ -12,7 +12,6 @@
  * Tools to support class & package inclusion and referencing.
  *
  * @author     Hans Lellelid <hans@xmpl.org>
- * @version    $Revision$
  * @package    propel.generator.builder.om
  */
 class ClassTools

@@ -1,10 +1,3 @@
 <?php
 
-if (!function_exists('lcfirst')) {
-    function lcfirst($string)
-    {
-        $string[0] = strtolower($string[0]);
-
-        return $string;
-    }
-}
+trigger_deprecation('propel/propel1', '1.7.2', 'Include '.__FILE__.' is deprecated and will remove.');

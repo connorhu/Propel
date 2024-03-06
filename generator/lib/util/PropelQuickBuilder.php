@@ -127,7 +127,7 @@ class PropelQuickBuilder
     {
         $statements = PropelSQLParser::parseString($this->getSQL());
         foreach ($statements as $statement) {
-            if (strpos($statement, 'DROP') === 0) {
+            if (str_starts_with($statement, 'DROP')) {
                 // drop statements cause errors since the table doesn't exist
                 continue;
             }

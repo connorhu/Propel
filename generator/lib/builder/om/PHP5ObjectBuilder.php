@@ -203,7 +203,7 @@ class PHP5ObjectBuilder extends ObjectBuilder
         if (null === $parentClass) {
             $parentClass = ClassTools::classname($this->getBaseClass());
 
-            if (false === strpos($this->getBaseClass(), '.')) {
+            if (!str_contains($this->getBaseClass(), '.')) {
                 $this->declareClass($this->getBaseClass());
             } else {
                 $this->declareClass($parentClass);

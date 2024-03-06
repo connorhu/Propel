@@ -143,7 +143,7 @@ class PropelCSVParser extends PropelParser
         $special_chars[] = $this->quotechar;
         $special_chars[] = $this->delimiter;
         foreach ($special_chars as $char) {
-            if (strpos($input, $char) !== false) {
+            if (str_contains($input, $char)) {
                 return true;
             }
         }

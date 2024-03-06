@@ -173,7 +173,7 @@ class MysqlSchemaParser extends BaseSchemaParser
     {
         $name = $row['Field'];
         $is_nullable = ($row['Null'] == 'YES');
-        $autoincrement = (strpos($row['Extra'], 'auto_increment') !== false);
+        $autoincrement = (str_contains($row['Extra'], 'auto_increment'));
         $size = null;
         $precision = null;
         $scale = null;

@@ -85,7 +85,7 @@ class OracleSchemaParser extends BaseSchemaParser
         }
         // First load the tables (important that this happen before filling out details of tables)
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-            if (strpos($row['OBJECT_NAME'], '$') !== false) {
+            if (str_contains($row['OBJECT_NAME'], '$')) {
                 // this is an Oracle internal table or materialized view - prune
                 continue;
             }
@@ -146,7 +146,7 @@ class OracleSchemaParser extends BaseSchemaParser
         $stmt = $this->dbh->query("SELECT COLUMN_NAME, DATA_TYPE, NULLABLE, DATA_LENGTH, DATA_PRECISION, DATA_SCALE, DATA_DEFAULT FROM USER_TAB_COLS WHERE TABLE_NAME = '" . $table->getName() . "'");
         /* @var stmt PDOStatement */
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-            if (strpos($row['COLUMN_NAME'], '$') !== false) {
+            if (str_contains($row['COLUMN_NAME'], '$')) {
                 // this is an Oracle internal column - prune
                 continue;
             }
@@ -164,7 +164,7 @@ class OracleSchemaParser extends BaseSchemaParser
             if ($type == "FLOAT" && $row["DATA_PRECISION"] == 126) {
                 $type = "DOUBLE";
             }
-            if (strpos($type, 'TIMESTAMP(') !== false) {
+            if (str_contains($type, 'TIMESTAMP(')) {
                 $type = substr($type, 0, strpos($type, '('));
                 $default = "0000-00-00 00:00:00";
                 $size = null;

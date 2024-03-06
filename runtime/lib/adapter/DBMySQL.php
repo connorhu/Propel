@@ -252,7 +252,7 @@ EXCEPTION
                 );
                 }
             } else {
-                if (strpos($params['dsn'], ';charset=') === false) {
+                if (!str_contains($params['dsn'], ';charset=')) {
                     $params['dsn'] .= ';charset=' . $params['settings']['charset']['value'];
                     unset($params['settings']['charset']);
                 }

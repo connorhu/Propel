@@ -233,7 +233,7 @@ class PropelSQLParser
             }
 
             if (!$isInString) {
-                if (false !== strpos($lowercaseString, 'delimiter ')) {
+                if (str_contains($lowercaseString, 'delimiter ')) {
                     // remove DELIMITER from string because it's a command-line keyword only
                     $parsedString = trim(str_ireplace('delimiter ', '', $parsedString));
 

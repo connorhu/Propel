@@ -264,7 +264,7 @@ class PropelSQLExec extends AbstractPropelTask
 
             // We want to make sure that the base schemas
             // are inserted first.
-            if (strpos($sqlfile, "schema.sql") !== false) {
+            if (str_contains($sqlfile, "schema.sql")) {
                 // add to the beginning of the array
                 array_unshift($databases[$database], $sqlfile);
             } else {

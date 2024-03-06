@@ -73,7 +73,7 @@ class PlatformDatabaseBuildTimeBase extends \PHPUnit\Framework\TestCase
 
         $statements = PropelSQLParser::parseString($sql);
         foreach ($statements as $statement) {
-            if (strpos($statement, 'DROP') === 0) {
+            if (str_starts_with($statement, 'DROP')) {
                 // drop statements cause errors since the table doesn't exist
                 continue;
             }

@@ -852,7 +852,7 @@ abstract class " . $this->getClassname() . " extends " . $parentClass . " ";
         }
         $script .= "
      *
-     * @param string \$format The date/time format string (either date()-style or strftime()-style).
+     * @param string \$format The date/time format string (in date()-style).
      *				 If format is null, then the raw " . ($useDateTime ? 'DateTime object' : 'unix timestamp integer') . " will be returned.";
         if ($useDateTime) {
             $script .= "
@@ -1020,6 +1020,7 @@ abstract class " . $this->getClassname() . " extends " . $parentClass . " ";
         }
 
         if (strpos(\$format, '%') !== false) {
+            @trigger_error(\"Use of strftime format is deprecated in method: \".__CLASS__.'::'.__METHOD__, \\E_USER_DEPRECATED);
             return strftime(\$format, \$dt->format('U'));
         }
 

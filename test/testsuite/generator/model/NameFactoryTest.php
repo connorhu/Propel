@@ -31,7 +31,7 @@ require_once __DIR__ . '/../../../../generator/lib/model/AppData.php';
 class NameFactoryTest extends BaseTestCase
 {
     /** The database to mimic in generating the SQL. */
-    const DATABASE_TYPE = "mysql";
+    public const DATABASE_TYPE = "mysql";
 
     /**
      * The list of known name generation algorithms, specified as the

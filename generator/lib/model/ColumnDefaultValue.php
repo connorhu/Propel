@@ -17,8 +17,8 @@
 class ColumnDefaultValue
 {
 
-    const TYPE_VALUE = "value";
-    const TYPE_EXPR = "expr";
+    public const TYPE_VALUE = "value";
+    public const TYPE_EXPR = "expr";
 
     /**
      * @var        string The default value, as specified in the schema.

@@ -33,15 +33,15 @@ class PropelPDO extends PDO
     /**
      * Attribute to use to set whether to cache prepared statements.
      */
-    const PROPEL_ATTR_CACHE_PREPARES = -1;
+    public const PROPEL_ATTR_CACHE_PREPARES = -1;
 
     /**
      * Attribute to use to set the connection name useful for explains
      */
-    const PROPEL_ATTR_CONNECTION_NAME = -2;
+    public const PROPEL_ATTR_CONNECTION_NAME = -2;
 
-    const DEFAULT_SLOW_THRESHOLD = 0.1;
-    const DEFAULT_ONLYSLOW_ENABLED = false;
+    public const DEFAULT_SLOW_THRESHOLD = 0.1;
+    public const DEFAULT_ONLYSLOW_ENABLED = false;
 
     /**
      * The current transaction depth.

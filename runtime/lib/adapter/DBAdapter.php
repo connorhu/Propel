@@ -31,9 +31,9 @@
  */
 abstract class DBAdapter
 {
-    const ID_METHOD_NONE = 0;
-    const ID_METHOD_AUTOINCREMENT = 1;
-    const ID_METHOD_SEQUENCE = 2;
+    public const ID_METHOD_NONE = 0;
+    public const ID_METHOD_AUTOINCREMENT = 1;
+    public const ID_METHOD_SEQUENCE = 2;
 
     /**
      * Propel driver to Propel adapter map.

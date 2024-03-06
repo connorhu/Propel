@@ -23,6 +23,6 @@ abstract class BaseTestCase extends \PHPUnit\Framework\TestCase
     /**
      * Conditional compilation flag.
      */
-    const DEBUG = false;
+    public const DEBUG = false;
 
 }

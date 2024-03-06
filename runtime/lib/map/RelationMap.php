@@ -24,14 +24,14 @@
 class RelationMap
 {
     // types
-    const MANY_TO_ONE = 1;
-    const ONE_TO_MANY = 2;
-    const ONE_TO_ONE = 3;
-    const MANY_TO_MANY = 4;
+    public const MANY_TO_ONE = 1;
+    public const ONE_TO_MANY = 2;
+    public const ONE_TO_ONE = 3;
+    public const MANY_TO_MANY = 4;
 
     // representations
-    const LOCAL_TO_FOREIGN = 0;
-    const LEFT_TO_RIGHT = 1;
+    public const LOCAL_TO_FOREIGN = 0;
+    public const LEFT_TO_RIGHT = 1;
 
     protected $name;
     protected $pluralName;

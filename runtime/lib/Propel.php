@@ -29,77 +29,77 @@ class Propel
     /**
      * The Propel version.
      */
-    const VERSION = '1.7.3-dev';
+    public const VERSION = '1.7.3-dev';
 
     /**
      * A constant for <code>default</code>.
      */
-    const DEFAULT_NAME = "default";
+    public const DEFAULT_NAME = "default";
 
     /**
      * A constant defining 'System is unusuable' logging level
      */
-    const LOG_EMERG = 0;
+    public const LOG_EMERG = 0;
 
     /**
      * A constant defining 'Immediate action required' logging level
      */
-    const LOG_ALERT = 1;
+    public const LOG_ALERT = 1;
 
     /**
      * A constant defining 'Critical conditions' logging level
      */
-    const LOG_CRIT = 2;
+    public const LOG_CRIT = 2;
 
     /**
      * A constant defining 'Error conditions' logging level
      */
-    const LOG_ERR = 3;
+    public const LOG_ERR = 3;
 
     /**
      * A constant defining 'Warning conditions' logging level
      */
-    const LOG_WARNING = 4;
+    public const LOG_WARNING = 4;
 
     /**
      * A constant defining 'Normal but significant' logging level
      */
-    const LOG_NOTICE = 5;
+    public const LOG_NOTICE = 5;
 
     /**
      * A constant defining 'Informational' logging level
      */
-    const LOG_INFO = 6;
+    public const LOG_INFO = 6;
 
     /**
      * A constant defining 'Debug-level messages' logging level
      */
-    const LOG_DEBUG = 7;
+    public const LOG_DEBUG = 7;
 
     /**
      * The class name for a PDO object.
      */
-    const CLASS_PDO = 'PDO';
+    public const CLASS_PDO = 'PDO';
 
     /**
      * The class name for a PropelPDO object.
      */
-    const CLASS_PROPEL_PDO = 'PropelPDO';
+    public const CLASS_PROPEL_PDO = 'PropelPDO';
 
     /**
      * The class name for a DebugPDO object.
      */
-    const CLASS_DEBUG_PDO = 'DebugPDO';
+    public const CLASS_DEBUG_PDO = 'DebugPDO';
 
     /**
      * Constant used to request a READ connection (applies to replication).
      */
-    const CONNECTION_READ = 'read';
+    public const CONNECTION_READ = 'read';
 
     /**
      * Constant used to request a WRITE connection (applies to replication).
      */
-    const CONNECTION_WRITE = 'write';
+    public const CONNECTION_WRITE = 'write';
 
     /**
      * @var        string The db name that is specified as the default in the property file

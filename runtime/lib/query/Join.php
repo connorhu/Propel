@@ -28,8 +28,8 @@
 class Join
 {
     // default comparison type
-    const EQUAL = "=";
-    const INNER_JOIN = 'INNER JOIN';
+    public const EQUAL = "=";
+    public const INNER_JOIN = 'INNER JOIN';
 
     // the left parts of the join condition
     protected $left = array();

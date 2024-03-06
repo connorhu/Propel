@@ -25,37 +25,37 @@ class PropelSchemaReverseTask extends PDOTask
     /**
      * Zero bit for no validators
      */
-    const VALIDATORS_NONE = 0;
+    public const VALIDATORS_NONE = 0;
 
     /**
      * Bit for maxLength validator
      */
-    const VALIDATORS_MAXLENGTH = 1;
+    public const VALIDATORS_MAXLENGTH = 1;
 
     /**
      * Bit for maxValue validator
      */
-    const VALIDATORS_MAXVALUE = 2;
+    public const VALIDATORS_MAXVALUE = 2;
 
     /**
      * Bit for type validator
      */
-    const VALIDATORS_TYPE = 4;
+    public const VALIDATORS_TYPE = 4;
 
     /**
      * Bit for required validator
      */
-    const VALIDATORS_REQUIRED = 8;
+    public const VALIDATORS_REQUIRED = 8;
 
     /**
      * Bit for unique validator
      */
-    const VALIDATORS_UNIQUE = 16;
+    public const VALIDATORS_UNIQUE = 16;
 
     /**
      * Bit for all validators
      */
-    const VALIDATORS_ALL = 255;
+    public const VALIDATORS_ALL = 255;
 
     /**
      * File to contain XML database schema.

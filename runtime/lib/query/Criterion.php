@@ -19,8 +19,8 @@
 class Criterion
 {
 
-    const UND = " AND ";
-    const ODER = " OR ";
+    public const UND = " AND ";
+    public const ODER = " OR ";
 
     /** Value of the CO. */
     protected $value;

@@ -26,12 +26,12 @@ class NameFactory
     /**
      * The class name of the PHP name generator.
      */
-    const PHP_GENERATOR = 'PhpNameGenerator';
+    public const PHP_GENERATOR = 'PhpNameGenerator';
 
     /**
      * The fully qualified class name of the constraint name generator.
      */
-    const CONSTRAINT_GENERATOR = 'ConstraintNameGenerator';
+    public const CONSTRAINT_GENERATOR = 'ConstraintNameGenerator';
 
     /**
      * The single instance of this class.

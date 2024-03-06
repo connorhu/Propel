@@ -37,7 +37,7 @@ class Table extends ScopedElement implements IDMethod
     /**
      * Enables some debug printing.
      */
-    const DEBUG = false;
+    public const DEBUG = false;
 
     /**
      * Columns for this table.

@@ -18,10 +18,10 @@
  */
 class PropelCSVParser extends PropelParser
 {
-    const QUOTE_NONE = 0;
-    const QUOTE_ALL = 1;
-    const QUOTE_NONNUMERIC = 2;
-    const QUOTE_MINIMAL = 3;
+    public const QUOTE_NONE = 0;
+    public const QUOTE_ALL = 1;
+    public const QUOTE_NONNUMERIC = 2;
+    public const QUOTE_MINIMAL = 3;
 
     // these settings are predefined for Excel CSV format
 

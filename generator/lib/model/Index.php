@@ -22,7 +22,7 @@ class Index extends XMLElement
 {
 
     /** enables debug output */
-    const DEBUG = false;
+    public const DEBUG = false;
 
     private $indexName;
 

@@ -16,8 +16,8 @@
  */
 class DelegateBehavior extends Behavior
 {
-    const ONE_TO_ONE = 1;
-    const MANY_TO_ONE = 2;
+    public const ONE_TO_ONE = 1;
+    public const MANY_TO_ONE = 2;
 
     // default parameters value
     protected $parameters = array(

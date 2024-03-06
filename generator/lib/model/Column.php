@@ -30,8 +30,8 @@ require_once __DIR__ . '/ColumnDefaultValue.php';
 class Column extends XMLElement
 {
 
-    const DEFAULT_TYPE = "VARCHAR";
-    const DEFAULT_VISIBILITY = 'public';
+    public const DEFAULT_TYPE = "VARCHAR";
+    public const DEFAULT_VISIBILITY = 'public';
     public static $valid_visibilities = array('public', 'protected', 'private');
 
     private $name;

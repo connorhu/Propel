@@ -25,7 +25,7 @@ require_once __DIR__ . '/../../exception/SchemaException.php';
 class XmlToAppData
 {
     /** enables debug output */
-    const DEBUG = false;
+    public const DEBUG = false;
 
     private $app;
     private $currDB;

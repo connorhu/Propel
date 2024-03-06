@@ -30,16 +30,16 @@
  */
 class ModelCriteria extends Criteria
 {
-    const MODEL_CLAUSE = "MODEL CLAUSE";
-    const MODEL_CLAUSE_ARRAY = "MODEL CLAUSE ARRAY";
-    const MODEL_CLAUSE_LIKE = "MODEL CLAUSE LIKE";
-    const MODEL_CLAUSE_SEVERAL = "MODEL CLAUSE SEVERAL";
-    const MODEL_CLAUSE_RAW = "MODEL CLAUSE RAW";
+    public const MODEL_CLAUSE = "MODEL CLAUSE";
+    public const MODEL_CLAUSE_ARRAY = "MODEL CLAUSE ARRAY";
+    public const MODEL_CLAUSE_LIKE = "MODEL CLAUSE LIKE";
+    public const MODEL_CLAUSE_SEVERAL = "MODEL CLAUSE SEVERAL";
+    public const MODEL_CLAUSE_RAW = "MODEL CLAUSE RAW";
 
-    const FORMAT_STATEMENT = 'PropelStatementFormatter';
-    const FORMAT_ARRAY = 'PropelArrayFormatter';
-    const FORMAT_OBJECT = 'PropelObjectFormatter';
-    const FORMAT_ON_DEMAND = 'PropelOnDemandFormatter';
+    public const FORMAT_STATEMENT = 'PropelStatementFormatter';
+    public const FORMAT_ARRAY = 'PropelArrayFormatter';
+    public const FORMAT_OBJECT = 'PropelObjectFormatter';
+    public const FORMAT_ON_DEMAND = 'PropelOnDemandFormatter';
 
     protected $modelName;
     protected $modelPeerName;

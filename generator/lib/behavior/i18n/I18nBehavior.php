@@ -20,7 +20,7 @@ require_once __DIR__ . '/I18nBehaviorPeerBuilderModifier.php';
  */
 class I18nBehavior extends Behavior
 {
-    const DEFAULT_LOCALE = 'en_US';
+    public const DEFAULT_LOCALE = 'en_US';
 
     // default parameters value
     protected $parameters = array(

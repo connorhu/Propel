@@ -17,34 +17,34 @@
 class PropelTypes
 {
 
-    const CHAR = "CHAR";
-    const VARCHAR = "VARCHAR";
-    const LONGVARCHAR = "LONGVARCHAR";
-    const CLOB = "CLOB";
-    const CLOB_EMU = "CLOB_EMU";
-    const NUMERIC = "NUMERIC";
-    const DECIMAL = "DECIMAL";
-    const TINYINT = "TINYINT";
-    const SMALLINT = "SMALLINT";
-    const INTEGER = "INTEGER";
-    const BIGINT = "BIGINT";
-    const REAL = "REAL";
-    const FLOAT = "FLOAT";
-    const DOUBLE = "DOUBLE";
-    const BINARY = "BINARY";
-    const VARBINARY = "VARBINARY";
-    const LONGVARBINARY = "LONGVARBINARY";
-    const BLOB = "BLOB";
-    const DATE = "DATE";
-    const TIME = "TIME";
-    const TIMESTAMP = "TIMESTAMP";
-    const BU_DATE = "BU_DATE";
-    const BU_TIMESTAMP = "BU_TIMESTAMP";
-    const BOOLEAN = "BOOLEAN";
-    const BOOLEAN_EMU = "BOOLEAN_EMU";
-    const OBJECT = "OBJECT";
-    const PHP_ARRAY = "ARRAY";
-    const ENUM = "ENUM";
+    public const CHAR = "CHAR";
+    public const VARCHAR = "VARCHAR";
+    public const LONGVARCHAR = "LONGVARCHAR";
+    public const CLOB = "CLOB";
+    public const CLOB_EMU = "CLOB_EMU";
+    public const NUMERIC = "NUMERIC";
+    public const DECIMAL = "DECIMAL";
+    public const TINYINT = "TINYINT";
+    public const SMALLINT = "SMALLINT";
+    public const INTEGER = "INTEGER";
+    public const BIGINT = "BIGINT";
+    public const REAL = "REAL";
+    public const FLOAT = "FLOAT";
+    public const DOUBLE = "DOUBLE";
+    public const BINARY = "BINARY";
+    public const VARBINARY = "VARBINARY";
+    public const LONGVARBINARY = "LONGVARBINARY";
+    public const BLOB = "BLOB";
+    public const DATE = "DATE";
+    public const TIME = "TIME";
+    public const TIMESTAMP = "TIMESTAMP";
+    public const BU_DATE = "BU_DATE";
+    public const BU_TIMESTAMP = "BU_TIMESTAMP";
+    public const BOOLEAN = "BOOLEAN";
+    public const BOOLEAN_EMU = "BOOLEAN_EMU";
+    public const OBJECT = "OBJECT";
+    public const PHP_ARRAY = "ARRAY";
+    public const ENUM = "ENUM";
 
     private static $TEXT_TYPES = array(
         self::CHAR, self::VARCHAR, self::LONGVARCHAR, self::CLOB, self::DATE, self::TIME, self::TIMESTAMP, self::BU_DATE, self::BU_TIMESTAMP
@@ -66,34 +66,34 @@ class PropelTypes
         self::BOOLEAN, self::BOOLEAN_EMU
     );
 
-    const CHAR_NATIVE_TYPE = "string";
-    const VARCHAR_NATIVE_TYPE = "string";
-    const LONGVARCHAR_NATIVE_TYPE = "string";
-    const CLOB_NATIVE_TYPE = "string";
-    const CLOB_EMU_NATIVE_TYPE = "resource";
-    const NUMERIC_NATIVE_TYPE = "string";
-    const DECIMAL_NATIVE_TYPE = "string";
-    const TINYINT_NATIVE_TYPE = "int";
-    const SMALLINT_NATIVE_TYPE = "int";
-    const INTEGER_NATIVE_TYPE = "int";
-    const BIGINT_NATIVE_TYPE = "string";
-    const REAL_NATIVE_TYPE = "double";
-    const FLOAT_NATIVE_TYPE = "double";
-    const DOUBLE_NATIVE_TYPE = "double";
-    const BINARY_NATIVE_TYPE = "string";
-    const VARBINARY_NATIVE_TYPE = "string";
-    const LONGVARBINARY_NATIVE_TYPE = "string";
-    const BLOB_NATIVE_TYPE = "resource";
-    const BU_DATE_NATIVE_TYPE = "string";
-    const DATE_NATIVE_TYPE = "string";
-    const TIME_NATIVE_TYPE = "string";
-    const TIMESTAMP_NATIVE_TYPE = "string";
-    const BU_TIMESTAMP_NATIVE_TYPE = "string";
-    const BOOLEAN_NATIVE_TYPE = "boolean";
-    const BOOLEAN_EMU_NATIVE_TYPE = "boolean";
-    const OBJECT_NATIVE_TYPE = "";
-    const PHP_ARRAY_NATIVE_TYPE = "array";
-    const ENUM_NATIVE_TYPE = "int";
+    public const CHAR_NATIVE_TYPE = "string";
+    public const VARCHAR_NATIVE_TYPE = "string";
+    public const LONGVARCHAR_NATIVE_TYPE = "string";
+    public const CLOB_NATIVE_TYPE = "string";
+    public const CLOB_EMU_NATIVE_TYPE = "resource";
+    public const NUMERIC_NATIVE_TYPE = "string";
+    public const DECIMAL_NATIVE_TYPE = "string";
+    public const TINYINT_NATIVE_TYPE = "int";
+    public const SMALLINT_NATIVE_TYPE = "int";
+    public const INTEGER_NATIVE_TYPE = "int";
+    public const BIGINT_NATIVE_TYPE = "string";
+    public const REAL_NATIVE_TYPE = "double";
+    public const FLOAT_NATIVE_TYPE = "double";
+    public const DOUBLE_NATIVE_TYPE = "double";
+    public const BINARY_NATIVE_TYPE = "string";
+    public const VARBINARY_NATIVE_TYPE = "string";
+    public const LONGVARBINARY_NATIVE_TYPE = "string";
+    public const BLOB_NATIVE_TYPE = "resource";
+    public const BU_DATE_NATIVE_TYPE = "string";
+    public const DATE_NATIVE_TYPE = "string";
+    public const TIME_NATIVE_TYPE = "string";
+    public const TIMESTAMP_NATIVE_TYPE = "string";
+    public const BU_TIMESTAMP_NATIVE_TYPE = "string";
+    public const BOOLEAN_NATIVE_TYPE = "boolean";
+    public const BOOLEAN_EMU_NATIVE_TYPE = "boolean";
+    public const OBJECT_NATIVE_TYPE = "";
+    public const PHP_ARRAY_NATIVE_TYPE = "array";
+    public const ENUM_NATIVE_TYPE = "int";
 
     /**
      * Mapping between Propel types and PHP native types.

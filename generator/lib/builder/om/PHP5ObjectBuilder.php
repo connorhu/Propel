@@ -1019,7 +1019,7 @@ abstract class " . $this->getClassname() . " extends " . $parentClass . " ";
         $script .= "
         }
 
-        if (strpos(\$format, '%') !== false) {
+        if (str_contains(\$format, '%')) {
             @trigger_error(\"Use of strftime format is deprecated in method: \".__CLASS__.'::'.__METHOD__, \\E_USER_DEPRECATED);
             return strftime(\$format, \$dt->format('U'));
         }

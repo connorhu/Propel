@@ -108,7 +108,7 @@ class PropelPHPParser
                     // Decrease the bracket-counter (not the class-brackets: `$isInFunction` must be true!)
                     $functionBracketBalance--;
                     if ($functionBracketBalance == 0) {
-                        if (strpos($methodCode, 'function ' . $methodName . '(') !== false) {
+                        if (str_contains($methodCode, 'function ' . $methodName . '(')) {
                             return $methodCode;
                         } else {
                             // If it's the closing bracket of the function, reset `$isInFunction`

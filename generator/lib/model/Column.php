@@ -1285,17 +1285,17 @@ class Column extends XMLElement
             $this->size = $size;
         }
 
-        if (strpos($tn, "CHAR") !== false) {
+        if (str_contains($tn, "CHAR")) {
             $this->domain->setType(PropelTypes::VARCHAR);
-        } elseif (strpos($tn, "INT") !== false) {
+        } elseif (str_contains($tn, "INT")) {
             $this->domain->setType(PropelTypes::INTEGER);
-        } elseif (strpos($tn, "FLOAT") !== false) {
+        } elseif (str_contains($tn, "FLOAT")) {
             $this->domain->setType(PropelTypes::FLOAT);
-        } elseif (strpos($tn, "DATE") !== false) {
+        } elseif (str_contains($tn, "DATE")) {
             $this->domain->setType(PropelTypes::DATE);
-        } elseif (strpos($tn, "TIME") !== false) {
+        } elseif (str_contains($tn, "TIME")) {
             $this->domain->setType(PropelTypes::TIMESTAMP);
-        } elseif (strpos($tn, "BINARY") !== false) {
+        } elseif (str_contains($tn, "BINARY")) {
             $this->domain->setType(PropelTypes::LONGVARBINARY);
         } else {
             $this->domain->setType(PropelTypes::VARCHAR);

@@ -177,11 +177,11 @@ abstract class OMBuilder extends DataModelBuilder
     {
         $pkg = $this->getPackage();
 
-        if (false !== strpos($pkg, '/')) {
+        if (str_contains($pkg, '/')) {
             return preg_replace('#\.(map|om)$#', '/\1', $pkg);
         }
 
-        if ('.' === substr($pkg, 0, 1)) {
+        if (str_starts_with($pkg, '.')) {
             $pkg = substr($pkg, 1);
         }
 
@@ -551,7 +551,7 @@ abstract class OMBuilder extends DataModelBuilder
             $modifier = $behavior->$modifierGetter();
 
             if (method_exists($modifier, $hookName)) {
-                if (strpos($hookName, 'Filter') !== false) {
+                if (str_contains($hookName, 'Filter')) {
                     // filter hook: the script string will be modified by the behavior
                     $modifier->$hookName($script, $this);
                 } else {
@@ -617,7 +617,7 @@ abstract class OMBuilder extends DataModelBuilder
         }
 
         // end of line
-        if (strlen($content) && "\n" != substr($content, -1)) {
+        if (strlen($content) && !str_ends_with($content, "\n")) {
             $content = $content . "\n";
         }
 

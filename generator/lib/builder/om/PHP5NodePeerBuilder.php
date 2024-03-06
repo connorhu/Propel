@@ -410,8 +410,9 @@ abstract class " . $this->getClassname() . " {
      */
     public static function moveNodeSubTree(\$srcPath, \$dstPath, PropelPDO \$con = null)
     {
-        if (substr(\$dstPath, 0, strlen(\$srcPath)) == \$srcPath)
+        if (str_starts_with(\$dstPath, \$srcPath)) {
             throw new PropelException('Cannot move a node subtree within itself.');
+        }
 
         if (\$con === null)
             \$con = Propel::getConnection($peerClassname::DATABASE_NAME, Propel::CONNECTION_WRITE);

@@ -785,7 +785,7 @@ class TableMap
      */
     protected function hasPrefix($data)
     {
-        return (strpos($data, $this->prefix) === 0);
+        return (str_starts_with($data, $this->prefix));
     }
 
     /**

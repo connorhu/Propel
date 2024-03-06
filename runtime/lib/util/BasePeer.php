@@ -749,7 +749,7 @@ class BasePeer
 
                 // Add function expression as-is.
 
-                if (strpos($orderByColumn, '(') !== false) {
+                if (str_contains($orderByColumn, '(')) {
                     $orderByClause[] = $orderByColumn;
                     continue;
                 }
@@ -804,7 +804,7 @@ class BasePeer
         // tables should not exist as alias of subQuery
         if ($criteria->hasSelectQueries()) {
             foreach ($fromClause as $key => $ftable) {
-                if (strpos($ftable, ' ') !== false) {
+                if (str_contains($ftable, ' ')) {
                     list($realtable, $tableName) = explode(' ', $ftable);
                 } else {
                     $tableName = $ftable;

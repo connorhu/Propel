@@ -67,7 +67,7 @@ class GeneratorConfig implements GeneratorConfigInterface
 
         $renamedPropelProps = array();
         foreach ($props as $key => $propValue) {
-            if (strpos($key, "propel.") === 0) {
+            if (str_starts_with($key, "propel.")) {
                 $newKey = substr($key, strlen("propel."));
                 $j = strpos($newKey, '.');
                 while ($j !== false) {

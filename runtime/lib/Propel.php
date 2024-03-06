@@ -721,7 +721,7 @@ class Propel
     private static function processDriverOptions($source, &$write_to)
     {
         foreach ($source as $option => $optiondata) {
-            if (is_string($option) && strpos($option, '::') !== false) {
+            if (is_string($option) && str_contains($option, '::')) {
                 $key = $option;
             } elseif (is_string($option)) {
                 $key = 'PropelPDO::' . $option;
@@ -732,7 +732,7 @@ class Propel
             $key = constant($key);
 
             $value = $optiondata['value'];
-            if (is_string($value) && strpos($value, '::') !== false) {
+            if (is_string($value) && str_contains($value, '::')) {
                 if (!defined($value)) {
                     throw new PropelException("Invalid PDO option/attribute value specified: " . $value);
                 }

@@ -733,7 +733,7 @@ abstract class " . $this->getClassname() . " implements IteratorAggregate {
         if (\$this->obj->isDeleted())
             throw new PropelException('Cannot save deleted node.');
 
-        if (substr(\$this->getNodePath(), 0, 1) == '0')
+        if (str_starts_with(\$this->getNodePath(), '0'))
             throw new PropelException('Cannot save unattached node.');
 
         if (\$this->obj->isColumnModified($nodePeerClassname::NPATH_COLNAME))

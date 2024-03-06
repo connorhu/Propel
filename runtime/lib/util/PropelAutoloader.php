@@ -111,7 +111,7 @@ class PropelAutoloader
             return true;
         }
         // fallback for classes defined with leading backslash
-        if (strpos($class, '\\') === 0) {
+        if (str_starts_with($class, '\\')) {
             $class = substr($class, 1);
 
             return $this->autoload($class);

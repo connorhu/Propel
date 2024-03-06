@@ -659,7 +659,7 @@ class ModelCriteria extends Criteria
     {
         // relation looks like '$leftName.$relationName $relationAlias'
         list($fullName, $relationAlias) = self::getClassAndAlias($relation);
-        if (strpos($fullName, '.') === false) {
+        if (!str_contains($fullName, '.')) {
             // simple relation name, refers to the current table
             $leftName = $this->getModelAliasOrName();
             $relationName = $fullName;
@@ -1129,7 +1129,7 @@ class ModelCriteria extends Criteria
      */
     public static function getClassAndAlias($class)
     {
-        if (strpos($class, ' ') !== false) {
+        if (str_contains($class, ' ')) {
             list($class, $alias) = explode(' ', $class);
         } else {
             $alias = null;
@@ -1152,7 +1152,7 @@ class ModelCriteria extends Criteria
         list($fullName, $relationAlias) = self::getClassAndAlias($relation);
         if ($relationAlias) {
             $relationName = $relationAlias;
-        } elseif (false === strpos($fullName, '.')) {
+        } elseif (!str_contains($fullName, '.')) {
             $relationName = $fullName;
         } else {
             list(, $relationName) = explode('.', $fullName);
@@ -1896,7 +1896,7 @@ class ModelCriteria extends Criteria
             }
         } else {
             // no column match in clause, must be an expression like '1=1'
-            if (strpos($clause, '?') !== false) {
+            if (str_contains($clause, '?')) {
                 if (null === $bindingType) {
                     throw new PropelException("Cannot determine the column to bind to the parameter in clause '$clause'");
                 }
@@ -2045,7 +2045,7 @@ class ModelCriteria extends Criteria
      */
     protected function getColumnFromName($phpName, $failSilently = true)
     {
-        if (strpos($phpName, '.') === false) {
+        if (!str_contains($phpName, '.')) {
             $prefix = $this->getModelAliasOrName();
         } else {
             // $prefix could be either class name or table name
@@ -2237,9 +2237,9 @@ class ModelCriteria extends Criteria
         // Maybe it's a magic call to one of the methods supporting it, e.g. 'findByTitle'
         static $methods = array('findBy', 'findOneBy', 'filterBy', 'orderBy', 'groupBy');
         foreach ($methods as $method) {
-            if (strpos($name, $method) === 0) {
+            if (str_starts_with($name, $method)) {
                 $columns = substr($name, strlen($method));
-                if (in_array($method, array('findBy', 'findOneBy')) && strpos($columns, 'And') !== false) {
+                if (in_array($method, array('findBy', 'findOneBy')) && str_contains($columns, 'And')) {
                     $method = $method . 'Array';
                     $columns = explode('And', $columns);
                     $conditions = array();

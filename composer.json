@@ -29,7 +29,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "phing/phing": "~2.4",
+        "phing/phing": "dev-fix/php83-compatibility",
         "symfony/deprecation-contracts": "^3.0"
     },
     "extra": {
@@ -40,5 +40,11 @@
     "bin": [
         "generator/bin/propel-gen",
         "generator/bin/propel-gen.bat"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/connorhu/phing.git"
+        }
     ]
 }

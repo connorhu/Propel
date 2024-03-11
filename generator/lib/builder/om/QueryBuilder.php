@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/OMBuilder.php';
-
 /**
  * Generates a PHP5 base Query class for user object model (OM).
  *

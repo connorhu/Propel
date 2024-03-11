@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-
 /**
  * Data about a validation rule used in an application.
  *

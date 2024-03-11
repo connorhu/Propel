@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/OMBuilder.php';
-
 /**
  * Generates the empty PHP5 stub class for object query
  *

@@ -8,13 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-require_once __DIR__ . '/../exception/EngineException.php';
-require_once __DIR__ . '/PropelTypes.php';
-require_once __DIR__ . '/Inheritance.php';
-require_once __DIR__ . '/Domain.php';
-require_once __DIR__ . '/ColumnDefaultValue.php';
-
 /**
  * A Class for holding data about a column used in an Application.
  *

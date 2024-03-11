@@ -8,10 +8,6 @@
  * @license     MIT License
  */
 
-require_once __DIR__ . '/../Database.php';
-require_once __DIR__ . '/PropelDatabaseDiff.php';
-require_once __DIR__ . '/PropelTableComparator.php';
-
 /**
  * Service class for comparing Database objects
  * Heavily inspired by Doctrine2's Migrations

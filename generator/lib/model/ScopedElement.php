@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-
 /**
  * Data about an element with a name and optional namespace/schema/package attributes
  *

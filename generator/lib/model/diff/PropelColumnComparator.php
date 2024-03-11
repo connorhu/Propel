@@ -8,9 +8,6 @@
  * @license     MIT License
  */
 
-require_once __DIR__ . '/../Column.php';
-require_once __DIR__ . '/PropelColumnDiff.php';
-
 /**
  * Service class for comparing Column objects.
  * Heavily inspired by Doctrine2's Migrations

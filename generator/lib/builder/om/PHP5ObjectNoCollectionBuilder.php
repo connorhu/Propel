@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/PHP5ObjectBuilder.php';
-
 /**
  * Generates a PHP5 base Object class for user object model (OM).
  *

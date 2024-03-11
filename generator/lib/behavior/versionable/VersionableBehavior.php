@@ -8,10 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/VersionableBehaviorObjectBuilderModifier.php';
-require_once __DIR__ . '/VersionableBehaviorQueryBuilderModifier.php';
-require_once __DIR__ . '/VersionableBehaviorPeerBuilderModifier.php';
-
 /**
  * Keeps tracks of all the modifications in an ActiveRecord object
  *

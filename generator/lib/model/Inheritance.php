@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-
 /**
  * A Class for information regarding possible objects representing a table
  *

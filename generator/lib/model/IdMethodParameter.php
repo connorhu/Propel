@@ -8,8 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/XMLElement.php';
-
 /**
  * Information related to an ID method.
  *

@@ -8,11 +8,6 @@
  * @license         MIT License
  */
 
-require_once __DIR__ . '/GeneratorConfig.php';
-require_once __DIR__ . '/GeneratorConfigInterface.php';
-require_once __DIR__ . '/../platform/PropelPlatformInterface.php';
-require_once __DIR__ . '/../platform/SqlitePlatform.php';
-
 /**
  * @package propel.generator.config
  */

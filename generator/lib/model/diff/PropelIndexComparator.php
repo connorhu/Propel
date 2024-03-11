@@ -8,8 +8,6 @@
  * @license     MIT License
  */
 
-require_once __DIR__ . '/../Index.php';
-
 /**
  * Service class for comparing Index objects
  * Heavily inspired by Doctrine2's Migrations

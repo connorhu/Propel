@@ -8,9 +8,6 @@
  * @license    MIT License
  */
 
-require_once __DIR__ . '/../../model/AppData.php';
-require_once __DIR__ . '/../../exception/SchemaException.php';
-
 /**
  * A class that is used to parse an input xml schema file and creates an AppData
  * PHP object.

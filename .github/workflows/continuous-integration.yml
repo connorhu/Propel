@@ -1,0 +1,39 @@
+name: "Continuous Integration"
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+env:
+  fail-fast: true
+
+jobs:
+  tests:
+    name: "Propel Tests"
+    runs-on: "ubuntu-latest"
+
+    strategy:
+      matrix:
+        php-version:
+          - "7.4"
+          - "8.1"
+          - "8.2"
+          - "8.3"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "${{ matrix.php-version }}"
+          phpunit: 9
+
+      - name: Install dependencies with Composer
+        uses: ramsey/composer-install@v2
+
+      - name: Run Tests
+        run: phpunit
